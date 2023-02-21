@@ -1,0 +1,22 @@
+$:{"$":{"feature_set":["onelink.archived","onelink.fs"]}}
+heads:
+ VersaiBot:
+    path: '.'
+    cacheTabs:
+      - main:
+         cleansed: no
+         io: no
+         gatekeeper: no
+         vfs: yes
+         mount: 2
+         tables: 1
+ legacy-language:
+    path: '.'
+    cacheTabs:
+      - main:
+         cleansed: no
+         io: no
+         gatekeeper: no
+         vfs: yes
+         mount: 2
+         tables: 2

@@ -1,0 +1,647 @@
+commit 9c20558d44a31e8fc8fae1e425135dfce3770224
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Thu Aug 18 06:08:27 2022 +0200
+
+    Changed "welcomeOn" to "welcomeTo"
+
+commit d922b7026a1d18aa1728f6e28a44a2cb19c6be00
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Jul 9 20:39:20 2022 +0200
+
+    .
+
+commit 686f142d471ce46d4d34cdf95329f3422a77bacc
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Jul 9 20:32:32 2022 +0200
+
+    .
+
+commit 6573e251392540dee4d75a949df59b828be131ad
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Jul 9 19:51:41 2022 +0200
+
+    MLGRush spectator translations
+
+commit e8a29a39124035a8de6830e8e57467a96fb0a510
+Merge: 52f9ae4 ce16f7d
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat May 28 13:30:34 2022 +0200
+
+    Merge branch 'main' of https://github.com/VersaiPE/language
+
+commit 52f9ae426412530cd668f54b4a015c1873942ec4
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat May 28 13:29:16 2022 +0200
+
+    RankSystem
+
+commit ce16f7d755d246b7f4153c4225b93a21cfb2d41d
+Author: Duo Incure <aidenaskwith92@gmail.com>
+Date:   Tue May 24 15:10:29 2022 +0100
+
+    combat command message
+
+commit b5e6ff6d5334367841a70d091eba3eb33284190e
+Author: Duo Incure <aidenaskwith92@gmail.com>
+Date:   Mon May 23 00:42:58 2022 +0100
+
+    Update, make universal
+
+commit 2f0b107de56cfadec6b0bdff2053d14a6c9d0206
+Author: Duo Incure <aidenaskwith92@gmail.com>
+Date:   Sat May 21 13:51:05 2022 +0100
+
+    Update de_DE.json
+
+commit 2d24f10fc0d36d04f31e2778ca974d68abdf041e
+Author: Duo Incure <aidenaskwith92@gmail.com>
+Date:   Sat May 21 13:49:23 2022 +0100
+
+    Add Practice translations
+
+commit 27d972081626c21b5a8497203c4a08b7c1c6e13d
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat May 21 05:24:48 2022 +0200
+
+    Last MLGRush translations
+
+commit 763cb72eef11a2cb1ce6e3ce726cc28c8cfa0109
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 20:14:31 2022 +0200
+
+    Spectate
+
+commit 150ba312f6a4152347628182c8e6d41fc3b3ce76
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 20:09:00 2022 +0200
+
+    Game time
+
+commit 92185c60b3096b532d9abf8c44e6858990275781
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 18:23:59 2022 +0200
+
+    Ranked / Unranked
+
+commit 91fbdd4f7eebe65f90efb5db9a8cea459f383a71
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 18:13:19 2022 +0200
+
+    MLGRush Scoreboard
+
+commit 89f052e222c37bcbda8316c6f9ed15be39409d73
+Merge: f24efd1 8eeadb7
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 16:07:57 2022 +0200
+
+    Merge branch 'main' of https://github.com/VersaiPE/language
+
+commit f24efd1a80802dd75ab9669262b3721ae921676d
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 16:06:14 2022 +0200
+
+    fix
+
+commit 63b7e63c5487f59ad9cd6c950afa15a31c15a655
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri May 20 16:05:11 2022 +0200
+
+    MLGRush
+
+commit 8eeadb72f5a26bcc6b06ff0220c624f05781bb66
+Author: Duo Incure <aidenaskwith92@gmail.com>
+Date:   Wed May 18 14:47:11 2022 +0100
+
+    Add streak
+    
+    Probably add more later, unsure what practice will need.
+
+commit 867706f8b4309bfc6607af37219c1e1438a46b6d
+Author: Duo Incure <duoincuredev@gmail.com>
+Date:   Wed May 18 14:11:04 2022 +0100
+
+    Update en_US.json
+
+commit e97be7ae917b62f3b52ff3ef507ceecc2d3ef385
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sun May 8 21:41:45 2022 +0200
+
+    NickSystem
+
+commit 9e814b2a4ada8daf449cd4c64298989036ff8b56
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sun May 8 21:26:09 2022 +0200
+
+    NickSystem
+
+commit a318ffd970b2c3d1f3d8437b8004e2ceba83c6d7
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Thu May 5 23:32:31 2022 +0200
+
+    RankSystem start
+
+commit a6739303c0aff62c715f6b3b9e6fd27ea19ff768
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Thu May 5 23:11:38 2022 +0200
+
+    fix
+
+commit d566b4a1dcbb2d4ac6d390d3bf7f123ec2293c80
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Thu May 5 20:16:23 2022 +0200
+
+    LobbySystem cleanup
+
+commit cf7dfc2faf7fcbadbcc6117cbd0e86393029e9f7
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Wed Apr 27 00:54:25 2022 +0200
+
+    SkyWars
+
+commit 245c779c85a514486c68de48f0dc7860e401f658
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 23 10:03:35 2022 +0200
+
+    SkyWars init
+
+commit b99bd8805bed8c0d06d08ad5aa2d9363f617b266
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Mon Apr 18 19:08:48 2022 +0200
+
+    .
+
+commit fdbfde6c4b35bdecaba266d3a633f595f13349eb
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Mon Apr 18 18:38:55 2022 +0200
+
+    .
+
+commit dc561c2c313d66633366bdb3ac6a7012a619b3e6
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Mon Apr 18 18:30:17 2022 +0200
+
+    JumpAndRun goal
+
+commit 2d510a6001062fe6cda18d53c5457d693c7d355d
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Mon Apr 18 18:03:25 2022 +0200
+
+    Jump and run goal
+
+commit a6520529ae76b203d94b0f04eb1509e5886effc3
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Mon Apr 18 17:08:45 2022 +0200
+
+    Jar start message
+
+commit ddee35e1bd11654c3629279829b52406baa9a177
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Mon Apr 18 16:55:42 2022 +0200
+
+    JumpAndRun
+
+commit 478d70d1ae2c70dafc11fe1eada1502d67b03db3
+Merge: ccfc12b aa3d8ca
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 16 20:28:21 2022 +0200
+
+    Merge branch 'main' of https://github.com/VersaiPE/language
+
+commit ccfc12b332e87a712079bf91167674c7b3162f93
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 16 20:27:43 2022 +0200
+
+    .
+
+commit 07698dbd7ab49aec529599b062e94ad611e64b2c
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 16 20:24:24 2022 +0200
+
+    Cosmetics translation
+
+commit aa3d8ca0be52e9439112ea0321bfdcaa16da17ad
+Author: jibixyt <64813399+jibixyt@users.noreply.github.com>
+Date:   Fri Apr 15 10:35:12 2022 +0200
+
+    .
+
+commit 910621a63b06e6cf172516b71a95af2e55331ceb
+Author: jibixyt <64813399+jibixyt@users.noreply.github.com>
+Date:   Fri Apr 15 10:34:07 2022 +0200
+
+    Fix
+
+commit ec68f77bd8e37aeeed75ec96f5a68a834cd601f2
+Author: jibixyt <64813399+jibixyt@users.noreply.github.com>
+Date:   Fri Apr 15 10:33:39 2022 +0200
+
+    Fix
+
+commit 17f18a2609d687d39e76ca8d359dd879c207155d
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri Apr 15 00:51:46 2022 +0200
+
+    LobbySystem translation
+
+commit 6a1e439d68677f043688e7a7b73bcd3d07b7b8a3
+Merge: b81032c 54d9081
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sun Apr 10 19:30:17 2022 +0200
+
+    Merge branch 'main' of https://github.com/VersaiPE/language
+
+commit b81032cfbc0c0b4286183d9cc381c970072e7216
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sun Apr 10 19:29:55 2022 +0200
+
+    fly command description
+
+commit b3ca940811b1d7b4029160bacb0bf80d42c6adf6
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sun Apr 10 18:58:20 2022 +0200
+
+    Command description translation
+
+commit 54d9081b0e28b697492891a7b479699057e747ff
+Author: Duo Incure <aidenaskwith92@gmail.com>
+Date:   Sun Apr 10 00:21:24 2022 +0100
+
+    Add `Greek` + `Spanish`
+
+commit 3c61f4948384e2da53544521e82fffd90848bd4b
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 05:15:34 2022 +0200
+
+    ping command
+
+commit 90a206f93914a89766c7284f60687c49b72b7312
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 04:13:42 2022 +0200
+
+    added a fly command
+
+commit 6de020db8f01a18dfec5c7d57ac95b0ab9c6578e
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 02:13:52 2022 +0200
+
+    .
+
+commit 97ed75d661eb36d91381a1e52174df62850e0f39
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 02:06:22 2022 +0200
+
+    added auto chat translation
+
+commit 61144d027093e566cdd3eaa8fe7c95f0109970f8
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 01:50:08 2022 +0200
+
+    implemented a staffchat
+
+commit 2d8944e9988cffb1d98e2bb2250881e84d0c805f
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 01:35:12 2022 +0200
+
+    fix
+
+commit babb12673fda67b530d9aacd610724426f88234b
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 01:29:11 2022 +0200
+
+    settings translation
+
+commit 4d59c1655e469ab18bc7a0993d73b2be7a84a9f7
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Sat Apr 9 00:17:25 2022 +0200
+
+    settings
+
+commit 61d2a7bf932078fad0866ea8e11ec78bbd5a18ab
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri Apr 8 23:30:16 2022 +0200
+
+    Base Messages
+
+commit 75200939a48b53a6c4ee0d55637cb94f7491dffe
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri Apr 8 23:20:50 2022 +0200
+
+    permission
+
+commit 0578a2421d2e81f584ff2b17dd6ea7d356f1e32b
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri Apr 8 15:29:42 2022 +0200
+
+    Base init
+
+commit abb208adecfdad9dcd713d8556b7d51407835679
+Author: jibixyt <timjeffga@gmail.com>
+Date:   Fri Apr 8 15:22:41 2022 +0200
+
+    Base init
+
+commit 323a9b0b7598843dc890752eb07dceec5be995b8
+Author: jibixyt <64813399+jibixyt@users.noreply.github.com>
+Date:   Fri Apr 8 15:17:06 2022 +0200
+
+    Delete ar_AR.json
+
+commit bedb8bb9b7e17ca60542405a5fcc56fb73a9f5f9
+Author: jibixyt <64813399+jibixyt@users.noreply.github.com>
+Date:   Fri Apr 8 15:16:50 2022 +0200
+
+    Delete properties.json
+
+commit 3742458ca802fffc3dab89d75d135a0767983a66
+Author: jibixyt <64813399+jibixyt@users.noreply.github.com>
+Date:   Fri Apr 8 15:08:38 2022 +0200
+
+    Update README.md
+
+commit 9a0fd419b50aeb341aa4c0b1e2f927e831bf1cc7
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 19:29:56 2022 +0200
+
+    Update en_US.json
+
+commit 1adcd5aafeca6ad8e489aa90e7b69f51f8b505e7
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 19:22:23 2022 +0200
+
+    Update de_DE.json
+
+commit 27f45f212801ad3d7f62313c9c7e56571e4f5cfe
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 19:21:30 2022 +0200
+
+    Update en_US.json
+
+commit 39c6c3f4be0bcaf7270e091e8be5017167fa384e
+Author: Mariooo <97336404+MarioooDev@users.noreply.github.com>
+Date:   Sun Apr 3 17:18:33 2022 +0000
+
+    created ar_AR (#3)
+    
+    * Create ar_AR.json
+    
+    * Update ar_AR.json
+
+commit 6079b2b84a22a76cc167ae585d1123767431365e
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 18:40:04 2022 +0200
+
+    Update de_DE.json
+
+commit 3d0039f9aa5069d682aa746a49961f09467cc28e
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:58:10 2022 +0200
+
+    Update en_US.json
+
+commit c935b70e586ebc712768d267957320fc3fd65fdc
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:56:37 2022 +0200
+
+    Update properties.json
+
+commit 4c458486aee24c3c465c27f1684ebfb4211dfc15
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:54:33 2022 +0200
+
+    Update de_DE.json (#1)
+    
+    fiuxed contribotors to array
+
+commit 2279f258efb4972dd179b93d410a0f9dbf758b67
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:47:24 2022 +0200
+
+    Update de_DE.json
+
+commit c048c4f44335455f60ef620b6e17756c61292ee0
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:47:10 2022 +0200
+
+    Update en_US.json
+
+commit e202d7045ffcd47221ce1097f66c27676fbb5135
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:41:09 2022 +0200
+
+    Update .locales.txt
+
+commit 6c23e639569b0fda18256d98d801e5d6b556ba96
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:40:44 2022 +0200
+
+    Update .locales.txt
+
+commit 87b3bcce6ce872227026f0891d4d2bbaefe1b1aa
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:20:54 2022 +0200
+
+    Rename locales.txt to  .locales.txt
+
+commit 392b0e227d6ac4f883b6f58d9b091a0327e78cbb
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:19:23 2022 +0200
+
+    Update de_DE.json
+
+commit cf02ce8dfdceabdb2126289653e4e8a3634a128c
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:16:35 2022 +0200
+
+    Update en_US.json
+
+commit e332626a3f04c0ccbe4a6334b85105cc50147242
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:16:06 2022 +0200
+
+    Update de_DE.json
+
+commit 18eea8b29897a9395d33600c4b5632e65e5516d9
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:13:36 2022 +0200
+
+    Update locales.txt
+
+commit 5a3ad0f006b7ac73ed2ec1263d83cc4082dac11f
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:08:51 2022 +0200
+
+    Rename locale.txt to locales.txt
+
+commit e7d9455a22ed48034d6ca1c035aa630222d67381
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:08:38 2022 +0200
+
+    Create locale.txt
+
+commit 874c076dcae5b587ca9e389f2e69e75fbc6545e9
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sun Apr 3 15:07:47 2022 +0200
+
+    Rename languages.json to properties.json
+
+commit a4d0bcef32fe6763bca4d91dab9e1acc88062160
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sat Apr 2 21:58:41 2022 +0200
+
+    Update de_DE.json
+
+commit 5b4c1ae93600b2fe8df8381f409af310cd7123c3
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Sat Apr 2 21:58:08 2022 +0200
+
+    Update de_DE.json
+
+commit 3b2d809970e43ea85e8b6b82d97f4b5e267e92ba
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Wed Mar 30 18:28:42 2022 +0200
+
+    Update en_US.json
+
+commit 255668e7cd1eacd502b084a5aa7d78d7e7294b71
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Wed Mar 30 18:28:23 2022 +0200
+
+    Update de_DE.json
+
+commit 1c13ae29b843a850e659be54d812378261716c56
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Wed Mar 30 18:27:31 2022 +0200
+
+    Update en_US.json
+
+commit 6e22d6fef2a45c9de459f16627a237258cddbf87
+Author: NetureCrafter <96377600+NetureCrafter@users.noreply.github.com>
+Date:   Wed Mar 30 18:24:08 2022 +0200
+
+    Update README.md
+
+commit 7352f3b2e60ecafe9c291fe650f8a40510f3ad5c
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Sat Mar 19 13:46:05 2022 +0100
+
+    Added Language Keys for Items
+
+commit e7a5954a9da2213c011a8b84123a8be9294e88bf
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Sat Mar 19 13:40:08 2022 +0100
+
+    Update de_DE.json
+
+commit 13b7c64d84c688ea13ffd7f6aebf5818981105a1
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 22:16:10 2022 +0100
+
+    Update en_US.json
+
+commit bab5cab49d82b16dcbdc73c48dadcc848d15276e
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 22:14:47 2022 +0100
+
+    Update README.md
+
+commit 3f45bf20079c472a01499d7dc54c1dee759b427f
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 22:11:15 2022 +0100
+
+    Update README.md
+
+commit 6b4d6adfbd158f1fd416089064fa8f4600a53e6e
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 22:11:04 2022 +0100
+
+    Update README.md
+
+commit c90ced8d4566cef642bd18695111285f1aff2b9f
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 22:10:53 2022 +0100
+
+    Update README.md
+
+commit 4403fd32e65bf226c16db282b73812bfdac1f447
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 22:06:50 2022 +0100
+
+    Update de_DE.json
+
+commit fa8aa5772e4c7aa71cbf5d3ce2c4d0adbc5610b2
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:52:22 2022 +0100
+
+    Update de_DE.json
+
+commit ab4735b33e9ae67f0e9bc71a634564afdb7788dc
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:47:38 2022 +0100
+
+    Update de_DE.json
+
+commit 3377d136dda77f10e57fa4349c4dfb085237e81d
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:42:22 2022 +0100
+
+    Update de_DE.json
+
+commit 4cc60117f6d709c14a6e80711ee5d5f5199853a7
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:42:13 2022 +0100
+
+    Update de_DE.json
+
+commit da4da45ecfae48675bd09f941e8455bed85a8873
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:31:40 2022 +0100
+
+    Update de_DE.json
+
+commit f10814bb02dd6342a5b6eb7275968a5ad509aaf4
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:19:27 2022 +0100
+
+    Update de_DE.json
+
+commit e41838497c3e29dc369d6fea067a8343121ddab1
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 21:18:36 2022 +0100
+
+    Update de_DE.json
+
+commit 97331ee5c2ba69633999942acb2d6c2e3f8b58e5
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 20:47:51 2022 +0100
+
+    Update de_DE.json
+
+commit 8a6999d61552a5ceee4d51427cc9ab6bcf2c8d2f
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 20:45:59 2022 +0100
+
+    Update de_DE.json
+
+commit 57f73283422a8072d6d5708b38d59b1b7d791770
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 20:45:46 2022 +0100
+
+    Create en_US.json
+
+commit e2ab3624de634654d61f3a147a2e9a97a75c1ac1
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 20:43:50 2022 +0100
+
+    Create de_DE.json
+
+commit 57593149cdc7b0ea84f8228624c175971a5a7bec
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 20:41:03 2022 +0100
+
+    Create languages.json
+
+commit 1691d252c7810d1eb2300c5bb4a2951290090ad7
+Author: DerGamer543HD <96377600+DerGamer543HD001@users.noreply.github.com>
+Date:   Fri Mar 18 20:39:35 2022 +0100
+
+    Initial commit
