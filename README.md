@@ -6,4 +6,6 @@ Repositories that live here have met the following criteria:
 - No longer a part of our eco-system
 - Broken or scrapped
 
-To archive a repository, use `onelink archive -github VersaiPE/REPO_NAME -o VersaiPE/REPO_NAME`
+To archive a repository, use `pnpm exec +scripts/archive.js <repo>`
+
+To view repoistories use `pnpm exec +scripts/list.js`
