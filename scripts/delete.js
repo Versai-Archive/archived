@@ -11,7 +11,6 @@ const allRepos = await client.request("GET /orgs/{org}/repos", {
 // a list of repos archived locally
 const archivedRepos = fs.readdirSync('./repos');
 // filter out the repos that are still online
-const archivedReposOffline = archivedRepos.filter(repo => !allRepos.data.find(onlineRepo => onlineRepo.name === repo));
 
 for (let repo of archivedReposOffline) {
     console.log(` - ${'✓'.yellow} ${repo}`);
@@ -22,18 +21,24 @@ for (let repo of allRepos.data) {
     const staleTime = (1000 * 60 * 60 * 24 * 30 * 6);
     const staleDate = new Date(staleTime + lastPush.getTime());
     if (Date.now() >= staleDate.getTime()) {
-        console.log(`Deleting ${repo.name.blue}...`);
+        if (!archivedRepos.includes(repo.name)) {
+            console.log(`${'!'.red} ${colors.yellow(repo.name)} is stale, but not archived. Run archiveAll.js first.`);
+            continue;
+        }
         try {
             await client.request("DELETE /repos/{owner}/{repo}", {
                 owner: 'VersaiPE',
                 repo: repo.name
             });
-            console.log(` - ${'✓'.green} ${repo.name}`);
+            console.log(`${'✓'.green} ${colors.blue(repo.name)}`);
         } catch (e) {
-            console.log(` - ${'!'.red} ${repo.name}`);
+            if (archivedRepos.includes(repo.name)) {
+                console.log(`${'✓'.yellow} ${colors.blue(repo.name)}`);
+            }
+            console.log(`${'!'.red.bold} ${colors.blue(repo.name)} Failed to delete.`);
         }
     } else {
-        console.log(` - ${'✗'.red} ${repo.name}`);
+        console.log(` ${'✗'.red} ${repo.name}`);
     }
 }
 
