@@ -6,6 +6,8 @@ const archivedRepos = fs.readdirSync('./repos');
 
 console.log(`Pruning ${archivedRepos.length.blue} repos...`);
 
+let staleOnline = [];
+
 let pruned = [];
 
 for (let repo of archivedRepos) {
@@ -24,6 +26,7 @@ for (let repo of archivedRepos) {
             fs.rmSync(`./repos/${repo}`, { recursive: true });
             pruned.push(repo);
         } else {
+            staleOnline.push(repoData.data);
             console.log(`${repo.green} is stale!`);
         }
     } catch {
@@ -31,3 +34,5 @@ for (let repo of archivedRepos) {
     }
 }
 console.log(`Pruned ${colors.blue(pruned.length)} repos.`);
+
+fs.writeFileSync('./stale.md', staleOnline.map(repo => `- [${repo.name}](${repo.html_url})`).join('\n'));
