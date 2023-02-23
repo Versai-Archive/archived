@@ -23,8 +23,7 @@ for (let repo of allRepos.data) {
         process.exit(1);
     }
 
-    console.log(`Found repo ${repo.name} (${colors.blue(repo.html_url)})`.green);
-    console.log(`Archiving repo ${repo.name.blue}...`);
+    console.log(`Archiving repo ${repo.name} (${colors.blue(repo.html_url)})`.green);
     console.log(` | checking branches...`.yellow);
 
     const branches = await client.request("GET /repos/{owner}/{repo}/branches", {
@@ -39,7 +38,7 @@ for (let repo of allRepos.data) {
     console.log(`Created folder for archive ${repo.name.blue}`);
 
     for (let branch of branches.data) {
-        console.log(`Downloading branch ${branch.name.yellow}...`);
+        console.log(`| Downloading branch ${branch.name.yellow}...`);
         const archive = await client.request("GET /repos/{owner}/{repo}/zipball/{ref}", {
             owner: 'VersaiPE',
             repo: repo.name,
@@ -48,13 +47,11 @@ for (let repo of allRepos.data) {
         // write the archive to the folder
         let encodedName = Buffer.from(branch.name).toString('base64');
         fs.writeFileSync(`./repos/${repo.name}/${encodedName}.zip`, Buffer.from(archive.data), { create: true });
-        console.log(` | Done!`.green);
     }
 
     // now iterate over each zip file and extract it
-    console.log(`Extracting...`);
     for (let branch of branches.data) {
-        console.log(`Extracting branch ${branch.name.yellow}...`);
+        console.log(`| Extracting branch ${branch.name.yellow}...`);
         // extract the archive
         let encodedName = Buffer.from(branch.name).toString('base64');
 
@@ -65,8 +62,6 @@ for (let repo of allRepos.data) {
 
         // delete the zip file
         fs.unlinkSync(`./repos/${repo.name}/${encodedName}.zip`);
-        console.log(` | Done!`);
     }
     console.log(`Archived repo: ${repo.name.blue}!`.green);
-    console.log(`This repository is now safe to delete.`.green);
 }
