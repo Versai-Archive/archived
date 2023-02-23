@@ -17,28 +17,38 @@ const allRepos = await client.request("GET /orgs/{org}/repos", {
     per_page: 100
 });
 
+allRepos.data = allRepos.data.filter(repo => repo.name !== 'archived');
+
 for (let repo of allRepos.data) {
     if (!repo) {
         console.log(`Could not find repo ${archiveName}.`.red);
         process.exit(1);
     }
 
-    console.log(`Archiving repo ${repo.name} (${colors.blue(repo.html_url)})`.green);
-    console.log(` | checking branches...`.yellow);
+    // console.log(`Checking if ${repo.name} (${colors.blue(repo.html_url)}) is stale.`);
+
+    // 6 months
+    const staleTime = Date.now() - (1000 * 60 * 60 * 24 * 30 * 6);
+    const lastPush = new Date(repo.pushed_at);
+    if (lastPush.getTime() < staleTime) {
+        const staleDate = new Date(lastPush + (1000 * 60 * 60 * 24 * 30 * 6));
+        console.log(`${repo.name.blue} will be stale at: ${staleDate.toLocaleDateString().yellow}`);
+        continue;
+    }
+    console.log(`Archiving ${repo.name.blue}...`)
 
     const branches = await client.request("GET /repos/{owner}/{repo}/branches", {
         owner: 'VersaiPE',
         repo: repo.name
     });
 
-    console.log(` | found ${branches.data.length.green} branches.`);
+    console.log(` | ${repo.name.blue} has ${colors.green(branches.data.length)} branches.`);
 
     // lets create the folder
     fs.mkdirSync(`./repos/${repo.name}`, { recursive: true });
-    console.log(`Created folder for archive ${repo.name.blue}`);
 
     for (let branch of branches.data) {
-        console.log(`| Downloading branch ${branch.name.yellow}...`);
+        console.log(` | Downloading branch ${branch.name.yellow}...`);
         const archive = await client.request("GET /repos/{owner}/{repo}/zipball/{ref}", {
             owner: 'VersaiPE',
             repo: repo.name,
@@ -51,7 +61,7 @@ for (let repo of allRepos.data) {
 
     // now iterate over each zip file and extract it
     for (let branch of branches.data) {
-        console.log(`| Extracting branch ${branch.name.yellow}...`);
+        console.log(` | Extracting branch ${branch.name.yellow}...`);
         // extract the archive
         let encodedName = Buffer.from(branch.name).toString('base64');
 
@@ -63,5 +73,7 @@ for (let repo of allRepos.data) {
         // delete the zip file
         fs.unlinkSync(`./repos/${repo.name}/${encodedName}.zip`);
     }
-    console.log(`Archived repo: ${repo.name.blue}!`.green);
+    console.log( ` | ${repo.name.blue} archived!`);
 }
+
+console.log(`Done.`.green);

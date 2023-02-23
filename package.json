@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "archive": "node ./scripts/archive.js",
     "archive-all": "node ./scripts/archiveAll.js",
-    "list": "node ./scripts/list.js"
+    "list": "node ./scripts/list.js",
+    "prune": "node ./scripts/prune.js"
   },
   "keywords": [],
   "author": "",

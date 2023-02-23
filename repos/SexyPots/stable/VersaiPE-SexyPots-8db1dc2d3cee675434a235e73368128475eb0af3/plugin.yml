@@ -1,6 +1,0 @@
-name: SexyPots
-version: 1.4
-api: 3.0.0
-main: impl\sexypots\Main
-authors: [diverse, ethaniccc]
-description: A very sexy pot lag fix.

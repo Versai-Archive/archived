@@ -1,6 +1,0 @@
-pdb.ini
-/node_modules
-*.js
-*.d.ts
-*db.json*
-/dist

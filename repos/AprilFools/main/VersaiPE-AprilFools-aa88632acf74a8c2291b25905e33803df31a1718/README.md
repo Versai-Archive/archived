@@ -1,2 +1,0 @@
-# AprilFools
-stupid troll plugin :)

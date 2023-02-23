@@ -1,5 +1,0 @@
-name: LastSeen
-main: lastseen\Loader
-version: 1.1.0
-api: 3.0.0
-authors: [Tru, Raptor]

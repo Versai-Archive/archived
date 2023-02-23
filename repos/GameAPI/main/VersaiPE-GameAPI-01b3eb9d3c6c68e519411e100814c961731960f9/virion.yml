@@ -1,6 +1,0 @@
-name: GameAPI
-version: 1.0.0
-author: Martin
-api: [ 3.0.0 ]
-description: Easily create mini-games using this API
-antigen: Martin\GameAPI

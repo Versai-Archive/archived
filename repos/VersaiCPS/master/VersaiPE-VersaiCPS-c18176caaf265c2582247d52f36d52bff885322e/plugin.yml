@@ -1,9 +1,0 @@
-name: VersaiCPS
-main: ethaniccc\VersaiCPS\VersaiCPS
-version: 0.0.3
-api: 3.0.0
-author: ethaniccc
-permissions:
-  VersaiCPS.command:
-    default: op
-    description: Allows to get CPS information of a player

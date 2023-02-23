@@ -1,6 +1,0 @@
-/node_modules
-*.js
-*.d.ts
-/_datas
-
-package-lock.json

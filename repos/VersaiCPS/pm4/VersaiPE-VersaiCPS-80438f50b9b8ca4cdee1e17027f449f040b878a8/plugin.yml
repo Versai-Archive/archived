@@ -1,9 +1,0 @@
-name: vCPS
-main: Versai\vcps\CPS
-version: 1.0.2
-api: 4.0.0
-author: Versai
-permissions:
-  vcps.command:
-    default: op
-    description: Allows to get CPS information of a player

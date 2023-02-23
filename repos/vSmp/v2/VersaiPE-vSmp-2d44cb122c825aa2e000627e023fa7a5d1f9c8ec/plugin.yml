@@ -1,8 +1,0 @@
----
-name: vRPGCore
-author: "TLS Gorilla"
-description: "The RPGCore for the new Versai gamemode"
-version: 1.0.0-ALPHA
-main: Versai\RPG\Main
-api: 4.0.0
-...

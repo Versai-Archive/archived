@@ -1,2 +1,0 @@
-# Arenas
- Arenas plugin

@@ -1,6 +1,0 @@
-name: Sumo Tournament
-version: 1.0.0
-description: A Sumo Tournament plugin for Versai
-api: [3.0.0]
-author: Martin
-main: Versai\Sumo\Sumo

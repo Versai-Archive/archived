@@ -1,6 +1,0 @@
-name: SexySoup
-version: 2.0.2
-api: 4.0.0
-main: sexysoup\Main
-author: diverse
-description: A very sexy impl for soup in pm4 now :)

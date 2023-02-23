@@ -1,6 +1,0 @@
----
-name: BotDuels
-version: 1.0-beta
-main: ethaniccc\BotDuels\BotDuels
-api: 3.17.0
-...

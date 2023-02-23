@@ -1,8 +1,0 @@
-name: SkyBlock
-version: 1.0.0-dev
-main: Martin\SkyBlock\Loader
-api: [ 3.0.0 ]
-authors: [ Martin ]
-description: SkyBlock Plugin for PocketMine-MP
-# Just for virion injections for VirionTools
-virions: [ pmforms, Commando, libasyncql ]

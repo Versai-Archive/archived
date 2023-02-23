@@ -1,5 +1,0 @@
-name: vOT
-description: Versai OT Plugin
-version: 1.0.0
-main: vOT\Loader
-api: 4.0.0

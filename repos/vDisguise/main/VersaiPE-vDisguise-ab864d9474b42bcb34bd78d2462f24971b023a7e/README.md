@@ -1,2 +1,0 @@
-# vDisguise
-Versai Disguise

@@ -1,7 +1,0 @@
-name: VersaiCore
-main: Versai\V6\Loader
-api: 4.0.0
-version: 1.0.0
-author: Versai
-description: Versai Core
-src-namespace-prefix: Versai\V6

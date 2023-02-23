@@ -1,5 +1,0 @@
-maps: [ ]
-
-end-match:
-  type: command
-  command: "/hub"

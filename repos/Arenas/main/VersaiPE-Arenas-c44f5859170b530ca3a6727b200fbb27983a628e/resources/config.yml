@@ -1,8 +1,0 @@
----
-Defaults:
-    Protection: 10
-    Knockback: 0.4
-    Cooldown: 10
-    Fall-Damage: true
-    Lightning: true
-...

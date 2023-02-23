@@ -1,4 +1,0 @@
-de_DE
-en_US
-el_GR
-es_ES
