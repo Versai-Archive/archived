@@ -1,2 +1,0 @@
-# vParkour
-Versai Parkour Plugin

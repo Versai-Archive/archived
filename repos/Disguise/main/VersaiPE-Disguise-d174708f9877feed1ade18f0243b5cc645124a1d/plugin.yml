@@ -1,0 +1,23 @@
+name: "Disguise"
+version: 1.0
+api: 4.0.0
+main: Jibix\Disguise\Main
+author: "Jibix"
+description: "A Disguise plugin for Versai"
+
+permissions:
+  disguise.use:
+    default: op
+    description: "Allows you to disguise yourself"
+  disguise.use.other:
+    default: op
+    description: "Allows you to disguise other players"
+  disguise.use.stealSkin:
+    default: op
+    description: "Allows you to steal a players skin"
+  disguise.use.ownName:
+    default: op
+    description: "Allows you to use your own name"
+  "disguise.use.role":
+    default: op
+    description: "Allows you to use an other role"

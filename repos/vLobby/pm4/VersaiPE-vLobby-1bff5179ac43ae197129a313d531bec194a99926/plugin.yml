@@ -1,0 +1,12 @@
+name: vLobby
+main: Versai\vlobby\Main
+api: 4.0.0
+version: 2.0.0
+
+permissions:
+  vlobby:
+    default: false
+  vlobby.bypass:
+    default: op
+  vlobby.fly:
+    default: op

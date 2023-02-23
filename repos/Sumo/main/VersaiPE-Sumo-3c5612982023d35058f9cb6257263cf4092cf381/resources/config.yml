@@ -1,0 +1,4 @@
+maps: [ ]
+ending:
+  type: "command" # or spawn
+  command: "/hub"

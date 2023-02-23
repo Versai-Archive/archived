@@ -1,0 +1,7 @@
+---
+name: Miscellaneous
+version: 0.0.1
+main: Sam\Miscellaneous\Main
+api: 3
+
+...

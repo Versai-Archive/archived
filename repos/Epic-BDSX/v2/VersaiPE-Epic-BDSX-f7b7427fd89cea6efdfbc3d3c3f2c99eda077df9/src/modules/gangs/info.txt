@@ -1,0 +1,41 @@
+So here we go working on gangs, maybe one of the hardest things that ive ever undertaken, in my whole programing career, along
+with the fact that it is with a whole diffrent API then I am used to. This document here is to adkowledge all that i want to happen
+come of these things are going to be somewhat hard to implement. and some of them may not be implemented at all. but here we go...
+
+
+  _                   _
+ | |    _____   _____| |___
+ | |   / _ \ \ / / _ \ / __|
+ | |__|  __/\ V /  __/ \__ \
+ |_____\___| \_/ \___|_|___/
+
+ For every level i want them to get something in return and I want the rewards to get progressively better in the current sytem
+ there are only 10 levels and a total of 50000 XP to get there
+
+ Level 1 -
+
+↑    GANG LEVELUP    ↑  SAME FORMAT ALL THE WAY THROUGH!!
+----------------------
+↑   +1 max players   ↑
+↑  10% XP Multiplier ↑
+----------------------
+
+Level 2 -
+
++1 Max players
+10% XP Multiplier
+
+Level 3 -
+
++2 Max players
++10% XP Multiplier
++Orange clan tag
+
+Level 4 -
+
++1 max players
++10% XP Multiplier
+
+Level 5 -
+
+

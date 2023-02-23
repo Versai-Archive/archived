@@ -1,0 +1,9 @@
+tournament-closed: "The sumo tournament has been closed"
+tournament-started: "The sumo tournament has been started"
+
+subcommand-not-found: "Are you sure this sub-command exists?"
+
+command-description: "Everything around sumo tournaments"
+
+set-position-1: "Successfully set the first position"
+set-position-2: "Successfully set the second position"

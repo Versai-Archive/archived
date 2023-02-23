@@ -1,0 +1,7 @@
+---
+name: vBotDuels
+version: 1.1
+main: ethaniccc\BotDuels\BotDuels
+src-namespace-prefix:  ethaniccc\BotDuels
+api: 4.0.0
+...

@@ -1,0 +1,16 @@
+name: SuperLinter
+
+on: [push, pull_request]
+
+jobs:
+  superlinter:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Skip]')"
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: yarn
+    - name: Super-Linter
+      uses: github/super-linter@v3.13.2

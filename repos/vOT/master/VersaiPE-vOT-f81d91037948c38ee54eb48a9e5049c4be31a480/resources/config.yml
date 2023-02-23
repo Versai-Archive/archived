@@ -1,0 +1,10 @@
+database:
+  type: mysql
+
+  mysql:
+    host:
+    username: "root"
+    password: ""
+    schema: ot_schema
+
+  worker-limit: 2

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="062a78bb-214d-44ac-bf14-a405dbf56bc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Versai/Sumo/Command/SubCommands/EditSubCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Versai/Sumo/Command/SubCommands/EditSubCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Versai/Sumo/Command/SubCommands/SetPosition1SubCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Versai/Sumo/Command/SubCommands/SetPosition1SubCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Versai/Sumo/Sumo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Versai/Sumo/Sumo.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qMR7qMT4V8C5VoJjumJgt1WaFn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="062a78bb-214d-44ac-bf14-a405dbf56bc8" name="Default Changelist" comment="" />
+      <created>1616887308521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616887308521</updated>
+      <workItem from="1616887309990" duration="4385000" />
+      <workItem from="1616933891817" duration="5916000" />
+      <workItem from="1617367745281" duration="1522000" />
+      <workItem from="1617487979404" duration="8371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

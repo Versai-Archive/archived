@@ -1,7 +1,0 @@
-Staff Chat:
-  Enabled: true
-  Format: "§9[Staff Chat] {player} » {msg}"
-  Inverse Character: "!"
-Hash: # Only change this if you reset your database. This will affect new IP addresses that are stored
-  Beginning: ""
-  End: ""

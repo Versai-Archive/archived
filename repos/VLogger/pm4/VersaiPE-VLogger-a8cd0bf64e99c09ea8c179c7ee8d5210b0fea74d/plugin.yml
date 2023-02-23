@@ -1,8 +1,0 @@
----
-name: vLogger
-version: 1.0.2
-main: Versai\VLogger\VLogger
-api: 4.0.0
-description: Log messages and commands to discord
-author: Martin
-...

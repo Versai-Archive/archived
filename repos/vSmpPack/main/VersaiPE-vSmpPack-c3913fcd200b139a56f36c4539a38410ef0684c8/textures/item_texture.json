@@ -1,0 +1,51 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+      "rune_basic": {
+          "textures": "textures\/items\/rune_basic"
+      },
+      "rune_blood": {
+          "textures": "textures\/items\/rune_blood"
+      },
+      "rune_gold": {
+          "textures": "textures\/items\/rune_gold"
+      },
+      "rune_forged": {
+          "textures": "textures\/items\/rune_forged"
+      },
+      "rune_crystal": {
+          "textures": "textures\/items\/rune_crystal"
+      },
+      "reinforced_sword": {
+          "textures": "textures\/items\/reinforced_sword"
+      },
+      "fine_sword": {
+          "textures": "textures\/items\/fine_sword"
+      },
+      "rune_sword": {
+          "textures": "textures\/items\/rune_sword"
+      },
+      "ruby_sword": {
+          "textures": "textures\/items\/ruby_sword"
+      },
+      "halycon_sword": {
+          "textures": "textures\/items\/halcycon_sword"
+      },
+      "scaled_sword": {
+          "textures": "textures\/items\/scaled_sword"
+      },
+      "jewelled_sword": {
+          "textures": "textures\/items\/jewelled_sword"
+      },
+      "jagged_sword": {
+          "textures": "textures\/items\/jagged_sword"
+      },
+      "edged_sword": {
+          "textures": "textures\/items\/edged_sword"
+      },
+      "crystal_sword": {
+          "textures": "textures\/items\/crystal_sword"
+      }
+  }
+    }

@@ -1,8 +1,0 @@
-name: SpleefOptimization
-main: ARTulloss\SpleefOptimization\Main
-version: 0.0.1
-api: 3.0.0
-load: POSTWORLD
-author: ARTulloss
-description: Optimizations for spleef
-website: https://github.com/artulloss

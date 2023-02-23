@@ -1,0 +1,206 @@
+body {
+  background-color: #e6e6e6;
+}
+
+nav {
+    width: 100%;
+    height: 300px;
+    background: url(./components/imgs/header.jpg);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.container-row {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(36, 36, 36, 0.58);
+    justify-content: space-between;
+}
+
+.profile-img {
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+
+.profile-img:hover {
+    cursor: pointer;
+}
+
+.navigates {
+    display: inline-flex;
+    color: white;
+    list-style: none;
+    padding-right: 12px;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.navigates a {
+    text-decoration: none;
+    color: white;
+}
+
+.letter {
+    color: white;
+    text-align: center;
+}
+
+.custom-main {
+    margin: auto;
+    margin-top: 35px;
+    width: 50%;
+    height: 170px;
+    background-color: #312f2f;
+    border-style: none;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.last-payments {
+
+    display: inline-block;
+    color: red;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.last-payments  img {
+    margin: 20px auto auto;
+}
+
+.box-profile {
+    background-color: #1c1b1b;
+    width: 80px;
+    height: 80px;
+}
+
+.discord-section {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 15px;
+    border-radius: 9px;
+    width: 100%;
+    height: 350px;
+    background: #7388d9;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.discord-section img{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-left: 6px;
+    border-radius: 6px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.discord-section h1 {
+    font-size: 40px;
+    color: snow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.discord-section p {
+    font-size: 14px;
+    color: snow;
+}
+
+#discord-link {
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+footer {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: snow;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    height: 140px;
+    background-color: #312f2f;
+}
+
+.fix-grid {
+    margin: 0;
+}
+
+#discord-link:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-family: Candara, serif ;
+}
+
+#credit {
+    padding-top: 25px;
+}
+
+.search-area {
+    width: 100%;
+    background-color: #e6e6e6;
+    height: 150px;
+}
+
+.form-search {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    display: inline-block;
+}
+
+.form-search input {
+    margin-top: 30px;
+    width: 50%;
+    height: 50px;
+    border-style: none;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.form-search button {
+    width: 50px;
+    height: 54px;
+    color: white;
+    background-color: dodgerblue;
+    border-style: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.form-search input:focus {
+    border: 0 none;
+    outline: 0;
+}
+
+.main-status {
+    margin: auto auto 20px;
+    width: 70%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.p-profile {
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+.stats-area {
+    width: 100%;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+
+.stats-area p {
+    padding: 4px;
+}

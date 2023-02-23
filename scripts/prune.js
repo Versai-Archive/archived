@@ -17,17 +17,17 @@ for (let repo of archivedRepos) {
 
         // get last push date
         const lastPush = new Date(repoData.data.pushed_at);
-        const staleTime = Date.now() - (1000 * 60 * 60 * 24 * 30 * 6);
+        const staleTime = lastPush.getTime() + (1000 * 60 * 60 * 24 * 30 * 6);
 
-        console.log(`Checking if ${repo.blue} is stale...`);
-
-        if (lastPush.getTime() < staleTime) {
-            console.log(`| ${repo.red} is not stale. Deleting...`);
+        if (Date.now() < staleTime) {
+            console.log(`${repo.red} is not stale. Deleting...`);
             fs.rmSync(`./repos/${repo}`, { recursive: true });
+            pruned.push(repo);
+        } else {
+            console.log(`${repo.green} is stale!`);
         }
-        pruned.push(repo);
     } catch {
-        console.log(`| ${repo.yellow} is locale only!`);
+        console.log(`${repo.yellow} is locale only!`);
     }
 }
 console.log(`Pruned ${colors.blue(pruned.length)} repos.`);

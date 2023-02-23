@@ -1,0 +1,25 @@
+---
+name: VCrates
+version: 1.0.0
+main: Sam\VCrates\Main
+api: 3
+
+permissions:
+  vcrates.command.givekeys:
+    default: op
+    description: Give keys to players
+  vcrates.command.removekeys:
+    default: op
+    description: Remove keys to players
+  vcrates.command.resetkeys:
+    default: op
+    description: Resets a player keys
+  vcrates.command.placecrate:
+    default: op
+    description: right click chests to transform them in crates
+
+virions:
+  - InvMenu
+  - libasynql
+  - pmforms
+...

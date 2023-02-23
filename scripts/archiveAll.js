@@ -28,11 +28,11 @@ for (let repo of allRepos.data) {
     // console.log(`Checking if ${repo.name} (${colors.blue(repo.html_url)}) is stale.`);
 
     // 6 months
-    const staleTime = Date.now() - (1000 * 60 * 60 * 24 * 30 * 6);
     const lastPush = new Date(repo.pushed_at);
-    if (lastPush.getTime() < staleTime) {
-        const staleDate = new Date(lastPush + (1000 * 60 * 60 * 24 * 30 * 6));
-        console.log(`${repo.name.blue} will be stale at: ${staleDate.toLocaleDateString().yellow}`);
+    const staleTime = (1000 * 60 * 60 * 24 * 30 * 6);
+    const staleDate = staleTime + lastPush.getTime();
+    if (Date.now() < staleDate) {
+        console.log(`${repo.name.blue} will be stale at: ${new Date(staleDate).toLocaleDateString().yellow}`);
         continue;
     }
     console.log(`Archiving ${repo.name.blue}...`)
