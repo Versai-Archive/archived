@@ -12,10 +12,6 @@ const allRepos = await client.request("GET /orgs/{org}/repos", {
 const archivedRepos = fs.readdirSync('./repos');
 // filter out the repos that are still online
 
-for (let repo of archivedReposOffline) {
-    console.log(` - ${'✓'.yellow} ${repo}`);
-}
-
 for (let repo of allRepos.data) {
     const lastPush = new Date(repo.pushed_at);
     const staleTime = (1000 * 60 * 60 * 24 * 30 * 6);
@@ -30,15 +26,15 @@ for (let repo of allRepos.data) {
                 owner: 'VersaiPE',
                 repo: repo.name
             });
-            console.log(`${'✓'.green} ${colors.blue(repo.name)}`);
+            console.log(`${'✓'.green} ${colors.yellow(repo.name)} Deleted`);
         } catch (e) {
             if (archivedRepos.includes(repo.name)) {
-                console.log(`${'✓'.yellow} ${colors.blue(repo.name)}`);
+                console.log(`${'✓'.yellow} ${colors.reset(repo.name)}`);
             }
-            console.log(`${'!'.red.bold} ${colors.blue(repo.name)} Failed to delete.`);
+            console.log(`${'!'.red.bold} ${colors.yellow(repo.name)} Failed to delete.`);
         }
     } else {
-        console.log(` ${'✗'.red} ${repo.name}`);
+        console.log(`${'✗'.red} ${colors.yellow(repo.name)} not stale.`);
     }
 }
 
