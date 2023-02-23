@@ -10,7 +10,8 @@
     "archive-all": "node ./scripts/archiveAll.js",
     "list": "node ./scripts/list.js",
     "prune": "node ./scripts/prune.js",
-    "delete": "node ./scripts/delete.js"
+    "delete": "node ./scripts/delete.js",
+    "gen": "node ./scripts/genList.js"
   },
   "keywords": [],
   "author": "",

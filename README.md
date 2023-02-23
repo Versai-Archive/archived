@@ -6,6 +6,8 @@ Repositories that live here have met the following criteria:
 - No longer a part of our eco-system
 - Broken or scrapped
 
+View this list by visiting [the archive index](./Index.md)
+
 ### Commands
 
 #### Archive
