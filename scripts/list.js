@@ -9,7 +9,7 @@ const allRepos = await client.request("GET /orgs/VersaiPE/repos?type=all&per_pag
 
 console.log(`Found ${allRepos.data.length} repos.`);
 console.log(' - ' + allRepos.data.map(repo => {
-    if (fs.existsSync(`./${repo.name}`)) {
+    if (fs.existsSync(`./repos/${repo.name}`)) {
         return `${'✓'.green} ${repo.name} (${colors.blue(repo.html_url)})`;
     } else {
         return `${'✗'.red} ${repo.name} (${colors.blue(repo.html_url)})`;

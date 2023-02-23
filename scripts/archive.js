@@ -4,7 +4,7 @@ import fs from 'fs';
 import decompress from 'decompress';
 
 if (getArgs().length === 0) {
-    console.log("Please provide a repo name.".red);
+    console.log("Please provide a repo name. To archive all repositores use archiveall instead.".red);
     process.exit(1);
 }
 
@@ -35,7 +35,7 @@ const branches = await client.request("GET /repos/{owner}/{repo}/branches", {
 console.log(` | found ${branches.data.length.green} branches.`);
 
 // lets create the folder
-fs.mkdirSync(`./${repo.name}`, { recursive: true });
+fs.mkdirSync(`./repos/${repo.name}`, { recursive: true });
 console.log(`Created folder for archive ${repo.name.blue}`);
 
 for (let branch of branches.data) {
@@ -47,7 +47,7 @@ for (let branch of branches.data) {
     });
     // write the archive to the folder
     let encodedName = Buffer.from(branch.name).toString('base64');
-    fs.writeFileSync(`./${repo.name}/${encodedName}.zip`, Buffer.from(archive.data), { create: true });
+    fs.writeFileSync(`./repos/${repo.name}/${encodedName}.zip`, Buffer.from(archive.data), { create: true });
     console.log(` | Done!`.green);
 }
 
@@ -59,12 +59,12 @@ for (let branch of branches.data) {
     let encodedName = Buffer.from(branch.name).toString('base64');
 
     let n = encodeURIComponent(branch.name.replaceAll(' ', '_'));
-    await decompress(`./${repo.name}/${encodedName}.zip`, `./${repo.name}/${n}`);
+    await decompress(`./repos/${repo.name}/${encodedName}.zip`, `./repos/${repo.name}/${n}`);
 
     // write the unzipped archive to the folder
 
     // delete the zip file
-    fs.unlinkSync(`./${repo.name}/${encodedName}.zip`);
+    fs.unlinkSync(`./repos/${repo.name}/${encodedName}.zip`);
     console.log(` | Done!`);
 }
 console.log(`Archived repo: ${repo.name.blue}!`.green);

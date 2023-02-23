@@ -6,6 +6,6 @@ Repositories that live here have met the following criteria:
 - No longer a part of our eco-system
 - Broken or scrapped
 
-To archive a repository, use `pnpm exec +scripts/archive.js <repo>`
+To archive a repository, use `pnpm run archive <repo>`
 
-To view repoistories use `pnpm exec +scripts/list.js`
+To view repoistories use `pnpm run list`
