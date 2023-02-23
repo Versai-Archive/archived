@@ -1,0 +1,44 @@
+---
+Hotbars:
+  UniqueHotbarName: # Here you put an identifier for each hotbar
+    §r§9Default Config!:
+      Item: "399:0:1" # ID:META:AMOUNT
+      Slot: 1 # Slots 1-9
+      Lore: # Written lore on an item
+        - §r§9This is the default configuration!
+      # - §r§9Another line
+      Commands:
+        - say WORKING@player # You can choose how you want the command executed!
+        - say THIS COMES FROM CONSOLE@console # This isn't case sensitive
+        - say THIS COMES FROM THE PLAYER AS OP@op
+        - say YOU DON'T HAVE TO SPECIFY THE END # You don't have to specify the end, you can use the Default Command Options setting to change what it will default to
+      #  - hotbar {clear} {player} # The hotbar command has the built in {clear} argument to remove a hotbar - This will allow them to move their inventory as well
+      #  - hotbar HotbarName {player} # Send a player a hotbar, allows for recursive menus where hotbars call other hotbars etc
+      Enchant: true # Do want the item to be enchanted?
+
+Default Command Options: player # Rather than specifying this for everything, you can simply just set the default way commands will be executed
+
+Worlds: # Here you can specify hotbars above and pair them with worlds
+  Spawn: UniqueHotbarName
+
+# Here you can put the names of worlds where you don't want the items to be movable in / be able to be dropped or picked up
+# This has changed from the 1.x versions, now the Hotbar will break when detecting invalid items (the player got a kit or something)
+# so this is useable on any world with a hotbar, not just the lobby.
+
+Locked Inventory:
+  - Spawn
+# - another world
+
+# The cooldown "fixes" the issue with interactions where Windows 10 spams the interact event
+# This is in ticks, I recommend 10 ticks
+
+Cooldown: 10
+
+# Don't modify this unless you update the plugin and it says the configuration needs to be updated
+# In that case, copy this from the updated configuration and make the necessary changes to your configuration
+
+# Make sure you add in the Enchant part for each item, previously this was missing, it was a mistake.
+# Please change Default-Command-Options to Default Command Options, this is a consistency fix for the configuration.
+
+Config Version: 3r8E{UGUDgX)~gba
+...

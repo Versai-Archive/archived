@@ -1,0 +1,7 @@
+name: FormStatusCommand
+main: ARTulloss\FormStatusCommand\Main
+version: 0.0.1
+api: 3.0.0
+author: ARTulloss
+description: Formified status command
+website: https://github.com/artulloss

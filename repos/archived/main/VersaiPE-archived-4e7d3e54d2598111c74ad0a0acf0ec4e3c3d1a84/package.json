@@ -1,0 +1,23 @@
+{
+  "name": "archived",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "archive": "node ./scripts/archive.js",
+    "archive-all": "node ./scripts/archiveAll.js",
+    "list": "node ./scripts/list.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "decompress": "^4.2.1",
+    "dotenv": "^16.0.3",
+    "octokit": "^2.0.14",
+    "prompt-confirm": "^2.0.4"
+  }
+}

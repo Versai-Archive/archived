@@ -1,0 +1,6 @@
+name: SexySoup
+version: 1.0.2
+api: 3.0.0
+main: sexysoup\Main
+author: diverse
+description: A very sexy impl for soup

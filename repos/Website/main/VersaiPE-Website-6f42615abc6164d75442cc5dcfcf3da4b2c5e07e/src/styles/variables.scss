@@ -1,0 +1,25 @@
+:root {
+    --color-primary: hsla(227 12%  30% / 1);
+    --color-accent: hsla(28 100% 50% / 1);
+    --color-font-primary: hsla(0 0% 0% / 1);
+    --color-font-secondary: hsl(0 0% 100% / 1);
+    --color-background: hsla(0 0% 100% / 1);
+    --color-background-secondary: hsla(227 12% 15% / 1);
+}
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin screen($size, $flip: false) {
+    @if $flip {
+        @media screen and (max-width: $size) {
+            @content;
+        }
+    } @else {
+        @media screen and (min-width: $size) {
+            @content;
+        }
+    }
+}

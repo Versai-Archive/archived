@@ -1,0 +1,6 @@
+---
+name: Tap2Duel
+version: 1.0
+main: ethaniccc\Tap2Duel\Main
+api: 3.17.0
+...

@@ -1,0 +1,47 @@
+maps:
+    - name: "Example"
+      level: "world"
+      joining-position:
+        x: 100
+        y: 60
+        z: 100
+        yaw: 0
+        pitch: 0
+      position1:
+        x: 0
+        y: 60
+        z: 0
+        yaw: 0
+        pitch: 0
+      position2:
+        x: 0
+        y: 60
+        z: 0
+        yaw: 0
+        pitch: 0
+    - name: "Example 2"
+      level: "world"
+      joining-position:
+        x: 100
+        y: 60
+        z: 100
+        yaw: 0
+        pitch: 0
+      position1:
+        x: 0
+        y: 60
+        z: 0
+        yaw: 0
+        pitch: 0
+      position2:
+        x: 0
+        y: 60
+        z: 0
+        yaw: 0
+        pitch: 0
+
+broadcast-countdown: "Sumo Tournament hosted by {player} starts in {countdown}"
+countdown: "§b{countdown}" # The countdown that the players receive when he gets tpped into the arena
+loadup-messages: true
+prefix-usage: true
+prefix: "§3[Sumo]"

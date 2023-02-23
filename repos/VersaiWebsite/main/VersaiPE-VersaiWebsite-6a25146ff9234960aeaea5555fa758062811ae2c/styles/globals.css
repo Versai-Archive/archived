@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background: url("/images/heheBlur.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+html,
+div#__next,
+body {
+  height: 100%;
+}
+
+.fil {
+  filter: drop-shadow(10px 10px 4px);
+}
+
+.bouncy:hover {
+  animation: headShake;
+  animation-duration: 1.5s;
+}

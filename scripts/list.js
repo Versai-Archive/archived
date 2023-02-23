@@ -7,7 +7,7 @@ const allRepos = await client.request("GET /orgs/VersaiPE/repos?type=all&per_pag
 });
 
 
-console.log(`Found ${allRepos.data.length} repos.`);
+console.log(`Found ${allRepos.data.length} repos (online).`);
 console.log(' - ' + allRepos.data.map(repo => {
     if (fs.existsSync(`./repos/${repo.name}`)) {
         return `${'✓'.green} ${repo.name} (${colors.blue(repo.html_url)})`;
@@ -16,4 +16,13 @@ console.log(' - ' + allRepos.data.map(repo => {
     }
 }).join('\n - '));
 
-console.log(`\n\n${'✓'.green} = Already archived, ${'✗'.red} = Not archived.`);
+// a list of repos archived locally
+const archivedRepos = fs.readdirSync('./repos');
+// filter out the repos that are still online
+const archivedReposOffline = archivedRepos.filter(repo => !allRepos.data.find(onlineRepo => onlineRepo.name === repo));
+
+for (let repo of archivedReposOffline) {
+    console.log(` - ${'✓'.yellow} ${repo}`);
+}
+
+console.log(`\n\n${'✓'.green} = Already archived\n${'✓'.yellow} = Archived, but deleted.\n${'✗'.red} = Not archived.`);

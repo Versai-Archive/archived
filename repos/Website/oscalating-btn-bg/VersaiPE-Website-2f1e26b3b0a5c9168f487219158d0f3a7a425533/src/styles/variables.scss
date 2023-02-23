@@ -1,0 +1,38 @@
+@use 'sass:color';
+
+@debug color.scale(#444655, $lightness: -30%);
+
+$color-primary: hsla(227 31% 48%);
+$color-secondary: hsla(234 13% 70%);
+$color-tertiary: hsla(233 11% 30%);
+$color-font-primary: hsla(0 0% 0%);
+$color-font-secondary: hsl(0 0% 100%);
+$color-background: hsla(0 0% 100%);
+$color-background-secondary: color.scale($color-tertiary, $lightness: -30%);
+
+:root {
+    --color-primary: #{$color-primary};
+    --color-secondary: #{$color-secondary};
+    --color-tertiary: #{$color-tertiary};
+    --color-font-primary: #{$color-font-primary};
+    --color-font-secondary: #{$color-font-secondary};
+    --color-background: #{$color-background};
+    --color-background-secondary: #{$color-background-secondary};
+}
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin screen($size, $flip: false) {
+    @if $flip {
+        @media screen and (max-width: $size) {
+            @content;
+        }
+    } @else {
+        @media screen and (min-width: $size) {
+            @content;
+        }
+    }
+}

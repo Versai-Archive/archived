@@ -1,0 +1,20 @@
+database:
+  type: sqlite
+  sqlite:
+    file: data.sqlite
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: ""
+    schema: your_schema
+  worker-limit: 1
+
+cobble-generator:
+  cobblestone: 64
+  netherite: 1
+  emerald: 2
+  diamond: 5
+  lapis: 0
+  gold: 10
+  iron: 9
+  coal: 9

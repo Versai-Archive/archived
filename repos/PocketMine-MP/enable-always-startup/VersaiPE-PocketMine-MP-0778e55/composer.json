@@ -1,0 +1,79 @@
+{
+   "name": "pocketmine/pocketmine-mp",
+   "description": "A server software for Minecraft: Pocket Edition written in PHP",
+   "type": "project",
+   "homepage": "https://pmmp.io",
+   "license": "LGPL-3.0",
+   "require": {
+      "php": ">=7.2.0",
+      "php-64bit": "*",
+      "ext-bcmath": "*",
+      "ext-chunkutils2": "^0.1.0",
+      "ext-curl": "*",
+      "ext-crypto": "^0.3.1",
+      "ext-ctype": "*",
+      "ext-date": "*",
+      "ext-ds": "^1.2.7",
+      "ext-gmp": "*",
+      "ext-hash": "*",
+      "ext-json": "*",
+      "ext-leveldb": "^0.2.1",
+      "ext-mbstring": "*",
+      "ext-openssl": "*",
+      "ext-pcre": "*",
+      "ext-phar": "*",
+      "ext-pthreads": ">=3.1.7dev",
+      "ext-reflection": "*",
+      "ext-sockets": "*",
+      "ext-spl": "*",
+      "ext-yaml": ">=2.0.0",
+      "ext-zip": "*",
+      "ext-zlib": ">=1.2.11",
+      "mdanter/ecc": "^0.5.0",
+      "pocketmine/raklib": "dev-master",
+      "pocketmine/spl": "dev-master",
+      "pocketmine/binaryutils": "^0.1.7",
+      "pocketmine/nbt": "dev-master",
+      "pocketmine/math": "dev-master",
+      "pocketmine/snooze": "^0.1.0",
+      "daverandom/callback-validator": "dev-master",
+      "adhocore/json-comment": "^0.0.7",
+      "particle/validator": "^2.3"
+   },
+   "autoload": {
+      "psr-4": {
+         "": ["src"]
+      }
+   },
+   "autoload-dev": {
+      "psr-4": {
+         "pocketmine\\": "tests/phpunit/"
+      }
+   },
+   "repositories": [
+      {
+         "type": "vcs",
+         "url": "https://github.com/pmmp/RakLib"
+      },
+      {
+         "type": "vcs",
+         "url": "https://github.com/pmmp/SPL"
+      },
+      {
+         "type": "vcs",
+         "url": "https://github.com/pmmp/BinaryUtils"
+      },
+      {
+         "type": "vcs",
+         "url": "https://github.com/pmmp/NBT"
+      },
+      {
+         "type": "vcs",
+         "url": "https://github.com/pmmp/Math"
+      },
+      {
+         "type": "vcs",
+         "url": "https://github.com/pmmp/Snooze"
+      }
+   ]
+}

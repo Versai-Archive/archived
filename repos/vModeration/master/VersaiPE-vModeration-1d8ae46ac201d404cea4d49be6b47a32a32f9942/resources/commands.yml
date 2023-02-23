@@ -1,0 +1,129 @@
+Discord: # Logging for commands
+  Enable: false
+  Webhook: ENTER WEBHOOK
+  Webhook-Reports: ENTER WEBHOOK
+  Title: "{type}"
+  Content-Punish:
+    - "Player: {player}"
+    - "Staff: {staff}"
+    - "Reason: {reason}"
+    - "Length: {length}"
+    - "Until: {until}"
+  Content-Unpunish:
+    - "Player: {player}"
+    - "Staff: {staff}"
+  Content-Kick:
+    - "Player: {player}"
+    - "Staff: {staff}"
+    - "Reason: {reason}"
+  Content-Report:
+    - "Reported: {reported}"
+    - "Player: {player}"
+    - "Reason: {reason}"
+  Footer: Your server
+  Image: https://raw.githubusercontent.com/versai-network/icons/master/Versai_Rounded.png
+Ban:
+  Lengths:
+    - 1 minute
+    - 1 hour
+    - 2 hours
+    - 3 hours
+    - 6 hours
+    - 8 Hours
+    - 12 hours
+    - 1 day
+    - 3 days
+    - 5 days
+    - 1 week
+    - 2 weeks
+    - 3 weeks
+    - 1 month
+    - 2 months
+    - 3 months
+    - Forever
+  Reasons:
+    - Foo
+    - Bar
+  Message:
+    - "You are banned!"
+    - "For: {reason}"
+    - "By: {staff}"
+    - "Until: {until}"
+    - "Problem? Appeal on discord!"
+Ip Ban:
+  Lengths:
+    - 1 minute
+    - 1 hour
+    - 2 hours
+    - 3 hours
+    - 6 hours
+    - 8 Hours
+    - 12 hours
+    - 1 day
+    - 3 days
+    - 5 days
+    - 1 week
+    - 2 weeks
+    - 3 weeks
+    - 1 month
+    - 2 months
+    - 3 months
+    - Forever
+  Reasons:
+    - Foo
+    - Bar
+  Message:
+    - "You are banned!"
+    - "For: {reason}"
+    - "By: {staff}"
+    - "Until: {until}"
+    - "Problem? Appeal on discord!"
+Mute:
+  Lengths:
+    - 1 hour
+    - 2 hours
+    - 3 hours
+    - 6 hours
+    - 8 Hours
+    - 12 hours
+  Reasons:
+    - Foo
+    - Bar
+  Message:
+    - "You are muted!"
+    - "For: {reason}"
+    - "By: {staff}"
+    - "Until: {until}"
+Freeze:
+  Lengths:
+    - 10 minutes
+    - 20 minutes
+    - 30 minutes
+    - 1 hour
+  Reasons:
+    - Foo
+    - Bar
+  Message:
+    - "You are frozen!"
+    - "For: {reason}"
+    - "By: {staff}"
+    - "Until: {until}"
+Kick:
+  Reasons:
+    - Foo
+    - Bar
+  Message:
+    - "You were kicked!"
+    - "For: {reason}"
+    - "By: {staff}"
+Report:
+  Reasons:
+    - Foo
+    - Bar
+List:
+  Format:
+    - "{player} by {staff}"
+    - "For: {reason}"
+    - "By: {staff}"
+  Command: # unban player etc
+    "un{type} {player}"

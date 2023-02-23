@@ -1,0 +1,64 @@
+#########################################################
+# Config for all of the quests
+#
+# Template
+#
+# QuestID:
+#   QuestName: String
+#   QuestVisual: String # The display name of the quest
+#   QuestDescription: String # "What the quest is needing done"
+#   QuestType: String # must be "block_break", "block_place", "collect", "kill_mob", "kill_mob_hostile", "kill_player", "play_time", "craft_item", "interact_npc"
+#   QuestDifficulty: String # must be "easy", "medium", "hard"
+#   QuestRequirement: Int # Then amount needed to be completed
+#   
+#############################
+#
+# example
+#
+# 1:
+#   name: "break_100_blocks"
+#   visual: "§3Block DESTROYER"
+#   description: "Break 100 blocks"
+#   type: "block_break"
+#   difficulty: "easy"
+#   requirement: 100
+#
+#########################################################
+1:
+  name: "craft_item"
+  visual: "§gCraft 3 Diamond Blocks"
+  description: "Craft 10 diamond blocks"
+  type: "craft_item"
+  difficulty: "easy"
+  requirement: 10
+  reqId: "57"
+2:
+  name: "block_breaker"
+  visual: "§aBlock DEMO"
+  description: "Break 10 blocks"
+  type: "block_break"
+  difficulty: "easy"
+  requirement: 10
+  reqId: "3"
+3:
+  name: "block_breaker"
+  visual: "§aBlock DEMO"
+  description: "Break 10 blocks"
+  type: "block_break"
+  difficulty: "easy"
+  requirement: 10
+  reqId: "5"
+4:
+  name: "kill_mobs"
+  visual: "§bMob Slayer"
+  description: "§bSlay 5 Mobs"
+  type: "kill_mob"
+  difficulty: "easy"
+  requirement: 5
+5:
+  name: "block_destroyer"
+  visual: "§aBlock DESTROYER"
+  description: "Break 250 blocks"
+  type: "block_break"
+  difficulty: "hard"
+  requirement: 250

@@ -1,0 +1,22 @@
+---
+name: VAC
+version: 1.0
+main: ethaniccc\VAC\VAC
+api: 3.26.1
+permissions:
+  ac.command.cooldown:
+    default: op
+    description: Allows the player to access the alert cooldown command on VAC
+  ac.command.logs:
+    default: op
+    description: Allows the player to access the player logs command on VAC
+  ac.command.logdata:
+    default: op
+    description: Allows the player to log the cached anti-cheat data of another player
+  ac.command.fetchdata:
+    default: op
+    description: Allows the player to fetched cached anti-cheat data of another player
+  ac.alerts:
+    default: op
+    description: Allows the player to have access to alerts
+...

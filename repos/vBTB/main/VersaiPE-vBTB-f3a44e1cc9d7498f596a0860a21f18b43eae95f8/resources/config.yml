@@ -1,0 +1,16 @@
+maps:
+  test_map_1:
+    name: Test Map 1
+    spawns:
+      - [0, 100, 0]
+      - [50, 100, 50]
+  test_map_2:
+    name: Test Map 2
+    spawns:
+      - [ 0, 100, 0 ]
+      - [ 50, 100, 50 ]
+database:
+  host: 'localhost'
+  user: 'root'
+  password: 'root'
+  database: 'versai'

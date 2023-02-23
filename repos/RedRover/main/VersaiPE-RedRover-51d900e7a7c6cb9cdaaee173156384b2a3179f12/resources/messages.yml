@@ -1,0 +1,58 @@
+prefix: "§9[§bRedRover§9]"
+
+broadcasts:
+  event-init: "§7The player {player} created an RedRover event! You may join using /rr join {player}"
+  event-started: "§7You are now playing on {map} made by {author} hosted by {player}"
+  event-ended: "§7The team {winner} §7won the current event against {loser} §7hosted by {player}"
+  game:
+    player-join: "§7The player {player} joined the current event as team {team}"
+    player-left: "§7The player {player} left the current event"
+    round-start: "§7The player {blue} §7is fighting against {red}"
+    round-end: "§7The player {winner} §7won against {loser}"
+
+title:
+  countdown: "§7Play in {countdown}"
+  finish: "§7You can now play!"
+
+commands:
+  error:
+    argument-missing: "§cYou are missing an argument at {position} with type {type}"
+    missing-permission: "§cYou are missing some permissions to execute this command"
+    player-only: "§cThis is an player-only command!"
+    already-in-game: "§cYou are already inside an event! You may leave using /rr leave"
+    in-game: "§cYou have to be inside an RedRover event to execute this command"
+    player-not-found: "§cThis player was not found"
+    team-full: "§cThe team {team} §cis full!"
+  create:
+    map-not-found: "§cThe map {map} was not found!"
+    hosting-public: "§7You are now hosting a public map! You may tell other players to join through /rr join {player}"
+    hosting-private: "§7You are now hosting a private RedRover event! The joinable code is {code}"
+  help:
+    title: "§bRedRover - Help"
+    command: "§b/redrover {command} | {description}"
+  close:
+    creator-only: "§cOnly the creator is allowed to execute this command!"
+  leave:
+    left: "§7You left team {team}"
+    left-broadcast: "§7The player {player} left {team}"
+  spectate:
+    joined: "§7You joined the game hosted by {player} as a Spectator"
+  kick:
+    game-started: "§cThis game already started!"
+    kicked: "§7Successfully kicked {player} out of the event"
+    not-in-event: "§cThis player is not in your event"
+  creator:
+    create: "§7Successfully created a map"
+    not-in-creator: "§cYou are not inside the creator mode!"
+    name: "§7Successfully changed the name to {name}"
+    position: "§7Successfully added positon {count}"
+    author: "§7Successfully added an author the the map"
+    stop: "§7You successfully left the creator mode"
+    save: "§7You successfully saved the current map"
+
+# Not implemented
+forms:
+  create:
+    title: "RedRover - Create"
+  events:
+    private: "Join a private game"

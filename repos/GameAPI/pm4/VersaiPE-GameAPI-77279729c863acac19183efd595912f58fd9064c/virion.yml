@@ -1,0 +1,4 @@
+name: GameAPI
+version: 1.0.0
+antigen: versai\gameapi
+api: [4.0.0]

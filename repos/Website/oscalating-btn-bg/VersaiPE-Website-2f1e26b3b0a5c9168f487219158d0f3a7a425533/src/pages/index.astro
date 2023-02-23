@@ -1,0 +1,31 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import Button from "../components/Button.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>News and updates</h1>
+      <h2 class="fs1">Join now</h2>
+      <p>Our server IP is versai.pro, default port.</p>
+      <p>
+        Already have Minecraft installed? Join our server by clicking the button
+        below.
+      </p>
+      <Button
+        href="minecraft://?addExternalServer=Versai%20Network|versai.pro:19132"
+        text="Add Server"
+      />
+    </main>
+    <Footer />
+  </body>
+</html>

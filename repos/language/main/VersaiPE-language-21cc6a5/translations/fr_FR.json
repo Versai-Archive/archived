@@ -1,0 +1,85 @@
+{
+    "values": {
+        "raw": {
+            "settings": "Réglages",
+            "primary": "Principal",
+            "accent": "Accentué",
+            "duels": "Duels",
+            "change_log": "Change Logs",
+            "languages": {
+                "english": "English",
+                "german": "German",
+                "spanish": "Spanish",
+                "korean": "Korean",
+                "french": "French",
+                "chinese_simplified": "Chinese Simplified",
+                "chinese_traditional": "Chinese Traditional",
+                "portuguese": "Portuguese"
+            },
+            "kills": "Kills",
+            "deaths": "Deaths",
+            "streak": "Streak",
+            "ping": "Ping",
+            "rank": "Rank",
+            "enabled": "Enabled",
+            "enable": "Enable",
+            "disabled": "Disabled",
+            "disable": "Disable",
+            "profile": "Profile",
+            "queue": "Queue",
+            "ranked": "Ranked",
+            "unranked": "UnRanked"
+        },
+        "gui": {
+            "settings": {
+                "show_scoreboard": "Afficher le classement",
+                "show_cps": "Afficher les CPS",
+                "accent_color": "Couleur d'accentuation",
+                "primary_color": "Couleur Primaire",
+                "language": "Language"
+            }
+        },
+        "color": {
+            "dark_blue": "Bleu Foncé",
+            "dark_green": "Vert Foncé",
+            "dark_aqua": "Turquoise foncé",
+            "dark_red": "Rouge foncé",
+            "dark_purple": "Mauve foncé",
+            "gold": "Or",
+            "gray": "Gris",
+            "dark_gray": "Gris foncé",
+            "blue": "Bleu",
+            "black": "Noir",
+            "green": "Vert",
+            "aqua": "Turquoise",
+            "red": "Rouge",
+            "light_purple": "Violet",
+            "yellow": "Jaune",
+            "white": "Blanc",
+            "minecoin_gold": "Minecoin Or"
+        },
+        "command": {
+            "error": {
+                "player_only": "Cette commande doit être exécutée en jeu!",
+                "player_not_found": "%v could not be found!",
+                "player_exceed": "You must use select one player!"
+            },
+            "general": {
+                "invalid_permssions": "You do not have permssion to use this command!"
+            },
+            "settings": {
+                "rank_needed": "You can not edit %v as you need to be %v rank to use it!"
+            },
+            "online": {
+                "time": "%v has been online for %v!"
+            }
+        },
+        "queue": {
+            "enter": "You have entered the queue for %v!",
+            "exit": "Exited queue for %v!"
+        },
+        "ping_self": "Votre ping est de %vms",
+        "ping_other": "Le ping de %v est de %vms",
+        "development": "This feature is still in development!"
+    }
+}

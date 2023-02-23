@@ -1,0 +1,13 @@
+{
+    "name": "versai/versai-hub",
+    "description": "A VersaiHub Plugin.",
+    "require": {
+        "catfan/medoo": "^2.1"
+    },
+    "license": "APACHE 2.0",
+    "authors": [
+        {
+            "name": "lovediverse"
+        }
+    ]
+}

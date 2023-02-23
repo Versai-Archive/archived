@@ -1,0 +1,7 @@
+name: VersaiSettings
+main: ARTulloss\VersaiSettings\Main
+version: 0.0.1
+api: 3.0.0
+author: ARTulloss
+description: Settings plugin for Versai
+website: https://github.com/artulloss

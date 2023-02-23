@@ -1,0 +1,17 @@
+---
+name: VAC
+version: 1.1
+main: ethaniccc\VAC\VAC
+api: 4.0.0
+src-namespace-prefix: ethaniccc\VAC
+permissions:
+  ac.command.cooldown:
+    default: op
+    description: Allows the player to access the alert cooldown command on VAC
+  ac.cooldown.logs:
+    default: op
+    description: Allows the player to access the player logs command on VAC
+  ac.alerts:
+    default: op
+    description: Allows the player to have access to alerts
+...

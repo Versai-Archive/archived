@@ -1,0 +1,6 @@
+commands:
+  job:
+    select:
+      not-unemployed: "You have to be unemployed to select a new job!"
+      on-cooldown: "§cYou can't change your job. You have to wait another {cooldown} hours!"
+      success: "You changed your job to {job}"

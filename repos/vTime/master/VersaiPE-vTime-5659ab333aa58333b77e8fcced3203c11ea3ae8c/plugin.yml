@@ -1,0 +1,11 @@
+---
+name: vTime
+version: 1.0.0
+main: Versai\vTime\Main
+api: 4.0.0
+author: Versai
+src-namespace-prefix: Versai\vTime
+permissions:
+  vtime.command.reset:
+    default: op
+...

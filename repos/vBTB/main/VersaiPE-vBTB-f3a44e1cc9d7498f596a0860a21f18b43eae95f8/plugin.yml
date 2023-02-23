@@ -1,0 +1,7 @@
+main: Versai\BTB\BTB
+name: "vBreakTheBed"
+api: [4.0.0]
+version: 0.0.1-ALPHA
+author: "TLS Gorilla"
+src-namespace-prefix: Versai\BTB
+prefix: "§aBreakTheBed§r"

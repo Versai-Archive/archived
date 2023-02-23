@@ -1,0 +1,35 @@
+.background {
+  @apply w-full;
+  height: 100vh;
+  background-color: #1d1d1d;
+  position: fixed;
+  @apply text-center;
+  display: block;
+}
+
+.h {
+  @apply mt-20;
+}
+
+.bluebutton {
+  display: inline-block;
+  font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 45px;
+  width: 250px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #7289da;
+  border: 2px solid #7289da;
+  color: #fff;
+}
+
+.bluebutton:hover {
+  transform: translateY(1px);
+}
+
+.bluebutton:active {
+  transform: translateY(2px);
+}

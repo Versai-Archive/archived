@@ -1,0 +1,85 @@
+{
+    "values": {
+        "raw": {
+            "settings": "設定",
+            "primary": "主要的",
+            "accent": "搭配的",
+            "duels": "決鬥",
+            "change_log": "更改日誌",
+            "languages": {
+                "english": "英語",
+                "german": "德語",
+                "spanish": "西班牙語",
+                "korean": "韩语",
+                "french": "法語",
+                "chinese_simplified": "殘體中文",
+                "chinese_traditional": "正體中文",
+                "portuguese": "葡萄牙語"
+            },
+            "kills": "Kills",
+            "deaths": "Deaths",
+            "streak": "Streak",
+            "ping": "Ping",
+            "rank": "Rank",
+            "enabled": "Enabled",
+            "enable": "Enable",
+            "disabled": "Disabled",
+            "disable": "Disable",
+            "profile": "Profile",
+            "queue": "Queue",
+            "ranked": "Ranked",
+            "unranked": "UnRanked"
+        },
+        "gui": {
+            "settings": {
+                "show_scoreboard": "顯示計分板",
+                "show_cps": "顯示 CPS",
+                "accent_color": "輔色",
+                "primary_color": "主色",
+                "language": "語言變更"
+            }
+        },
+        "color": {
+            "dark_blue": "深藍色",
+            "dark_green": "深綠色",
+            "dark_aqua": "深青色",
+            "dark_red": "深紅色",
+            "dark_purple": "深紫色",
+            "gold": "金色",
+            "gray": "灰色",
+            "dark_gray": "暗灰色",
+            "blue": "藍色",
+            "black": "黑色",
+            "green": "綠色",
+            "aqua": "青色",
+            "red": "紅色",
+            "light_purple": "淺紫色",
+            "yellow": "黃色",
+            "white": "白色",
+            "minecoin_gold": "金幣"
+        },
+        "command": {
+            "error": {
+                "player_only": "此命令僅可在遊戲內使用",
+                "player_not_found": "幹三小啦無法找到%v的說!",
+                "player_exceed": "You must use select one player!"
+            },
+            "general": {
+                "invalid_permssions": "You do not have permssion to use this command!"
+            },
+            "settings": {
+                "rank_needed": "You can not edit %v as you need to be %v rank to use it!"
+            },
+            "online": {
+                "time": "%v has been online for %v!"
+            }
+        },
+        "queue": {
+            "enter": "You have entered the queue for %v!",
+            "exit": "Exited queue for %v!"
+        },
+        "ping_self": "您延遲為%vms",
+        "ping_other": "%v有%vms延遲",
+        "development": "This feature is still in development!"
+    }
+}

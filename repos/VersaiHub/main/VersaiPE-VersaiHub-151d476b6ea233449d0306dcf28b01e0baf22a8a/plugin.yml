@@ -1,0 +1,8 @@
+---
+name: VersaiHub
+version: 1.0.1-ALPHA
+api: [4.0.0]
+author: VersaiPE
+main: Versai\Main
+src-namespace-prefix: Versai
+...

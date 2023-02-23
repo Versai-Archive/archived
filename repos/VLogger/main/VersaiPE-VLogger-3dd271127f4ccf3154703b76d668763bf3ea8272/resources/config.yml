@@ -1,0 +1,13 @@
+Options:
+  SendAbove: 1800 # Max for webhooks is 2000 (Discord docs, could be 2048 though)
+
+Messages:
+  Webhook: "URL HERE"
+  Format: "{player} => {message}"
+  IgnoredPlayers: [ ]
+
+Commands:
+  Webhook: "URL HERE"
+  Format: "{player} => /{command}"
+  IgnoredPlayers: [ ]
+  IgnoredCommands: [ "hub", "duel", "duels" ]

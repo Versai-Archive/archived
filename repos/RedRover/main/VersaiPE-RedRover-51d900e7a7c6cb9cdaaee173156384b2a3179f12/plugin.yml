@@ -1,0 +1,6 @@
+name: RedRover
+description: RedRover Event using GameAPI
+version: 1.0.0
+author: Martin
+main: Martin\RedRover\Main
+api: [ 3.0.0 ]

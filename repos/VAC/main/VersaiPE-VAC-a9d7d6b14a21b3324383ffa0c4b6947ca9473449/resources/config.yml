@@ -1,0 +1,40 @@
+prefix: "§l§7[§bV§fA§bC§7]§r"
+violation_message: "{prefix} §b{name} §fflagged §b{category} §7(§b{sub_category}§7) §7(§cx{violations}§7) §7[{debug}]"
+kick_message: "{prefix} You were kicked due to §c§lpotential§r §bunfair advantage§r [code={code}]\nMake a ticket on discord.versai.pro if this issue persists"
+kick_broadcast: "{prefix} §b{name} §rwas kicked from the server for flagging §b{category} §7(§b{sub_category}§7)"
+webhook_link: "none"
+
+detections:
+  Autoclicker:
+    A:
+      enabled: true
+      max_cps: 23
+      max_vl: 15
+      punishment_type: "none"
+      codename: CCAP
+    B:
+      enabled: true
+      max_vl: 15
+      punishment_type: "none"
+      codename: NDC
+  Killaura:
+    A:
+      enabled: true
+      max_vl: 10
+      punishment_type: "none"
+      codename: NSKA
+  Reach:
+    A:
+      enabled: true
+      max_touch_dist: 3.15
+      max_default_dist: 3.1
+      max_vl: 30
+      punishment_type: "none"
+      codename: IRD
+  Velocity:
+    A:
+      enabled: true
+      pct: 99.99
+      max_vl: 30
+      punishment_type: "none"
+      codename: IVKB

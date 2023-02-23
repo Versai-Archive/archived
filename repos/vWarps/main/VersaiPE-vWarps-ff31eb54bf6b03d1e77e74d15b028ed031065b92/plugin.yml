@@ -1,0 +1,23 @@
+name: vWarps
+main: Versai\vwarps\Main
+version: 1.0.0
+api: 4.0.0
+author: Versai
+description: Versai warps plugin!
+depend: [vMW, vArenas]
+permissions:
+  warps:
+    default: false
+    description: Warp command root permission
+  warps.other:
+    default: op
+    description: Allows player to warp others
+  warps.use:
+    default: op
+    description: Allows players to use warps
+  warps.create:
+    default: op
+    description: Allows players to create warps
+  warps.delete:
+    default: op
+    description: Allows players to delete warps

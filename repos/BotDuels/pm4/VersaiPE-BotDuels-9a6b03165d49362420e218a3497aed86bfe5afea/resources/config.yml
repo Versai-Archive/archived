@@ -1,0 +1,107 @@
+#  ______       _  ______            _
+#  | ___ \     | | |  _  \          | |
+#  | |_/ / ___ | |_| | | |_   _  ___| |___
+#  | ___ \/ _ \| __| | | | | | |/ _ \ / __|
+#  | |_/ / (_) | |_| |/ /| |_| |  __/ \__ \
+#  \____/ \___/ \__|___/  \__,_|\___|_|___/
+# Made by ethaniccc, visit @ https://www.github.com/ethaniccc
+
+# Notes:
+# - In positions, you should put a list. The first on the list will be the x of the position, the second on the list will be
+# the y of the position, and the last on the list will be the z of the position. In the test_map example, the player's position would
+# be Vec(0, 4, 0)
+main:
+  load:
+    nodebuff: false
+    sumo: true
+
+bot-data:
+  combo:
+    easy:
+      name: "Easy Bot"
+      reachDist: 2.3
+    medium:
+      name: "Medium Bot"
+      reachDist: 2.75
+    hard:
+      name: "Hard Bot"
+      reachDist: 3.0
+  sumo:
+    easy:
+      name: "Easy Bot"
+      reachDist: 2.0
+      wtapTicks: 5
+    medium:
+      name: "Medium Bot"
+      reachDist: 2.5
+      wtapTicks: 5
+    hard:
+      name: "Hard Bot"
+      reachDist: 3.0
+      wtapTicks: 5
+    expert:
+      name: "Shappel Bot"
+      reachDist: 3.3
+      wtapTicks: 5
+  nodebuff:
+    easy:
+      name: "Easy Bot"
+      reachDist: 2.0
+      canPearl: false
+      canAgroPearl: false
+      refillTicks: 60
+      potTicks: 10
+      wtapTicks: 5
+    medium:
+      name: "Medium Bot"
+      reachDist: 2.5
+      canPearl: true
+      canAgroPearl: false
+      refillTicks: 60
+      potTicks: 10
+      wtapTicks: 5
+    hard:
+      name: "Hard Bot"
+      reachDist: 2.75
+      canPearl: true
+      canAgroPearl: false
+      refillTicks: 50
+      potTicks: 5
+      wtapTicks: 4
+    expert:
+      name: "Shappel Bot"
+      reachDist: 3.0
+      canPearl: true
+      canAgroPearl: true
+      refillTicks: 20
+      potTicks: 3
+      wtapTicks: 3
+    closet-cheater:
+      name: "Ozan12 Bot"
+      reachDist: 3.4
+     canPearl: true
+      canAgroPearl: true
+      refillTicks: 20
+      potTicks: 3
+      wtapTicks: 3
+    blatant-cheater:
+      name: "coEthaniccc Bot"
+      reachDist: 4.0
+      canPearl: true
+      canAgroPearl: true
+      refillTicks: 10
+      potTicks: 10
+      wtapTicks: 5
+maps:
+  #nodebuff:
+    #test_map:
+    #  folder_name: "test_map"
+    #  authors: ["ethaniccc"]
+    #  player_position:
+    #    - 0
+    #    - 4
+    #    - 0
+    #  bot_position:
+    #    - 30
+    #    - 4
+    #    - 30

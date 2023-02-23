@@ -1,0 +1,15 @@
+---
+Form:
+  Title: Warps!
+  Text: Choose a warp!
+Defaults:
+  Pocket: false
+  Image:
+    data: ""
+    type: path
+  Format:
+    - "{warp}"
+    - "{players} players"
+Warps: []
+Message: You warped to {warp}
+---
