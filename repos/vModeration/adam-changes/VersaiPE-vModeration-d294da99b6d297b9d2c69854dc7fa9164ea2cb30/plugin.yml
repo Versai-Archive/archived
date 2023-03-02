@@ -1,0 +1,58 @@
+name: vModeration
+main: Versai\ModerationPM\Main
+version: 2.0.1
+api: 4.0.0
+author: Versai
+description: Versai Moderation System
+permissions:
+  moderation.ban:
+    default: "op"
+    description: "Allows to ban players"
+  moderation.ip ban:
+    default: "op"
+    description: "Allows to ban players IP addresses"
+  moderation.mute:
+    default: "op"
+    description: "Allows to mute players"
+  moderation.freeze:
+    default: "op"
+    description: "Allows to freeze players"
+  moderation.kick:
+    default: "op"
+    description: "Allows to kick players"
+  moderation.report:
+    default: true
+    description: "Allows to report players"
+  moderation.unban:
+    default: "op"
+    description: "Allows to unban players"
+  moderation.unip ban:
+    default: "op"
+    description: "Allows to unban players IP addresses"
+  moderation.unmute:
+    default: "op"
+    description: "Allows to unmute players"
+  moderation.unfreeze:
+    default: "op"
+    description: "Allows to unfreeze players"
+  moderation.list:
+    default: "op"
+    description: "Allows to view all punishment lists"
+  moderation.touch_punish:
+    default: "op"
+    description: "Allows to use touch punish for hackers with hard to see names"
+  moderation.staff_chat:
+    default: "op"
+    description: "Allows to use the staff chat"
+  moderation.reports:
+    default: "op"
+    description: "Allows player to view reports"
+  moderation.onlinestaff:
+    default: "op"
+    description: "Allows the player to check online staff"
+  moderation.alias:
+    default: "op"
+    description: "Allows the player to check for alts"
+  moderation.pinfo:
+    default: "op"
+    description: "Allows the player to check player information"
