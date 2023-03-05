@@ -2,3 +2,4 @@
 .onelink
 .env
 node_modules
+.packaged

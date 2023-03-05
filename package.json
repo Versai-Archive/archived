@@ -12,12 +12,14 @@
     "prune": "node ./scripts/prune.js",
     "delete": "node ./scripts/delete.js",
     "delete-all": "node ./scripts/deleteAll.js",
-    "gen": "node ./scripts/genList.js"
+    "gen": "node ./scripts/genList.js",
+    "package": "node ./scripts/package.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "archiver": "^5.3.1",
     "colors": "^1.4.0",
     "decompress": "^4.2.1",
     "dotenv": "^16.0.3",
