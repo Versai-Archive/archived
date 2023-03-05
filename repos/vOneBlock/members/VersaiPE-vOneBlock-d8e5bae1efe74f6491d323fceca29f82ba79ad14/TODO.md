@@ -1,0 +1,6 @@
+ - [ ] Remove the listen for player XUID
+ - [ ] Add Island Members
+    - [x] Island member Permissions (Rank Based)
+    - [x] Custom Permission's
+ - [ ] Display bossbar of the island that they are at 
+ - [ ] Island Manager to get island instance when the owner is offline

@@ -1,0 +1,2 @@
+# VersaiBot
+VersaiPE Discord Bot

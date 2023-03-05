@@ -1,0 +1,392 @@
+---
+Settings:
+    1v1-Duel-Length: 720
+    Party-Duel-Length: 1440
+    End-Game-Time: 4
+    Ranked-Queue-Time: 5
+    Kit-Command: kit {type} 1
+    Global-Fight-Menu: true
+Arenas:
+    Silv:
+        Level: Silv
+        Author: Silv
+        Positions:
+            - 233.6997:65:255.0474
+            - 276.6903:65:255.1562
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Pacman:
+        Level: Pacman
+        Author: ARTulloss and TabbyCatBuilder
+        Positions:
+            - 226.5:71:253.5
+            - 226.5:71:213.5
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    LifRed:
+        Level: LifRed
+        Author: Lifiuh
+        Positions:
+            - 247:59:239
+            - 240:59:290
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    LifWave:
+        Level: LifWave
+        Author: Lifiuh
+        Positions:
+            - 289.5:65:252.5
+            - 219.5:65:252.5
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Alien:
+        Level: Alien
+        Author: inthelittleSue
+        Positions:
+            - 265:63:271
+            - 265:63:214
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Mario:
+        Level: Mario
+        Author: inthelittleSue
+        Positions:
+            - 274:53:260
+            - 225:53:258
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Pyramid:
+        Level: Pyramid
+        Author: inthelittleSue
+        Positions:
+            - 253:61:284
+            - 254:61:254
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Nightfall:
+        Level: Nightfall
+        Author: ComboPE
+        Positions:
+            - 393:63:328
+            - 347:63:328
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Football:
+        Level: Football
+        Author: Versai
+        Positions:
+            - 210.5:83:232.5
+            - 210.5:83:185.5
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Winter-Cabin:
+        Level: Winter-Cabin
+        Author: Rustilize
+        Positions:
+            - 252:70:199
+            - 247:70:256
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Organic:
+        Level: Organic
+        Author: SaiyanRot & FlamingXO
+        Positions:
+            - 205:65:242
+            - 239:65:208
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Gladiator:
+        Level: Gladiator
+        Author: SKuree
+        Positions:
+            - 333:70:295
+            - 375:70:304
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Ender:
+        Level: Ender
+        Author: SKuree & InthelittleSue
+        Positions:
+            - 259:71:289
+            - 256:71:286
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Sandy-Desert:
+        Level: Sandy-Desert
+        Author: OctuplePuma
+        Positions:
+            - 263:47:236
+            - 202:47:235
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Mushroom:
+        Level: Mushroom
+        Author: iFqding and OctuplePuma
+        Positions:
+            - 191:91:247
+            - 257:91:247
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Pixel:
+        Level: sai2
+        Author: SaiyanRot
+        Positions:
+            - 246:66:295
+            - 312:66:295
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Pillars:
+        Level: blaze
+        Author: BlazeCraftMC
+        Positions:
+            - 227:65:314
+            - 227:65:263
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    End:
+        Level: EndPurple
+        Author: SKuree
+        Positions:
+            - 260:71:285
+            - 175:71:285
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Entrapped:
+        Level: Flam4
+        Author: FlamingXO & SaiyanRot
+        Positions:
+            - 213:66:236
+            - 220:66:192
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Spruce:
+        Level: sai4
+        Author: SaiyanRot & KillzzzToWin
+        Positions:
+            - 210:65:176
+            - 210:66:232
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    Sakura:
+        Level: Sakura
+        Author: FlamingXO
+        Positions:
+            - 247:65:304
+            - 167:66:304
+        Kit-IDs:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+    # Sumo
+    Cookie:
+        Level: Cookie
+        Author: FlamingXO
+        Positions:
+            - 316:69:257
+            - 302:69:257
+        Kit-IDs:
+            - 9
+    Rainbow:
+        Level: Rainbow
+        Author: FlamingXO
+        Positions:
+            - 290:69:257
+            - 278:69:257
+        Kit-IDs:
+            - 9
+    Versai-Sumo:
+        Level: Versai-Sumo
+        Author: FlamingXO and SKuree
+        Positions:
+            - 242:69:255
+            - 256:69:255
+        Kit-IDs:
+            - 9
+    Pokeball:
+        Level: Pokeball
+        Author: Rustilize
+        Positions:
+            - 249:71:255
+            - 263:71:255
+        Kit-IDs:
+            - 9
+    End-Sumo:
+        Level: End-Sumo
+        Author: Rustilize
+        Positions:
+            - 255:70:228
+            - 255:70:242
+        Kit-IDs:
+            - 9
+    Egg-Sumo:
+        Level: Egg-Sumo
+        Author: SaiyanRot
+        Positions:
+            - 247:66:243
+            - 261:66:243
+        Kit-IDs:
+            - 9
+    Target:
+        Level: Target
+        Author: B24
+        Positions:
+            - 259:79:233
+            - 259:79:219
+        Kit-IDs:
+            - 9
+    # Spleef
+    Spleef:
+        Level: Spleef
+        Author: Rustilize
+        Positions:
+            - 269.5:70:221.5
+            - 269.5:70:304.5
+            - 312.5:70:261.5
+            - 224.5:70:262.5
+        Kit-IDs:
+            - 10

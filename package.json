@@ -11,6 +11,7 @@
     "list": "node ./scripts/list.js",
     "prune": "node ./scripts/prune.js",
     "delete": "node ./scripts/delete.js",
+    "delete-all": "node ./scripts/deleteAll.js",
     "gen": "node ./scripts/genList.js"
   },
   "keywords": [],

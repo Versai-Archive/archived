@@ -1,0 +1,21 @@
+{
+  "values": {
+    "message.useIngame": "Παρακαλώ χρησιμοποιήστε αυτήν την εντολή μόνο μέσα στο παιχνίδι!",
+    "message.noPermission": "Δεν έχετε άδεια για να χρησιμοποιήσετε αυτήν την εντολή!",
+    "message.playerNotFound": "Αυτός ο παίκτης δεν μπόρεσε να βρεθεί!",
+    "message.playerNotOnline": "Αυτός ο παίκτης δεν είναι ενεργός!",
+    "message.invalidGamemode": "Δεν μπορείτε να χρησιμοποιήσετε αυτήν την λειτουργία στο τρέχον παιχνίδι σας!",
+    "message.flyToggled": "Η λειτουργία πτήσης έχει αποθηκευτεί με επιτυχία!",
+    "message.flyToggled.other": "Έχετε αλλάξει με επιτυχία τη λειτουργία πτήσης του {0}!",
+    "message.ping": "Το ping σας είναι {0}!",
+    "message.ping.other": "Το ping του {0} είναι {1}!",
+    "message.settingsSaved": "Οι αλλαγές των ρυθμίσεων έχουν αποθηκευτεί επιτυχώς!",
+    "ui.title.settings": "Ρυθμίσεις",
+    "ui.element.msgs": "Ιδιωτικά μηνύματα",
+    "ui.element.chat": "Συνομιλία",
+    "ui.element.scoreboard": "Πίνακας",
+    "ui.element.language": "Γλώσσα",
+    "ui.element.autotranlation": "Αυτόματη μετάφραση",
+    "ui.button.close": "Κλείσιμο"
+  }
+}

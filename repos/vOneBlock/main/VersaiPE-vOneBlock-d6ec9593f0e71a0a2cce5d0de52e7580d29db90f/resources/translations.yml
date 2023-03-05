@@ -1,0 +1,22 @@
+commands:
+  player_only: "This command can only be used in game"
+  player_not_found: "§cPlayer could not be found!"
+  island:
+    description: "The base island command"
+
+errors:
+  general: "§cAn error occured §7[§c{%0}§7]"
+  island:
+    none: "§cYou do not have an island!"
+  session:
+    not_found: "Player Session could not be found"
+
+scoreboard:
+  title: "§3Versai §7Oneblock"
+
+island:
+  errors:
+    not_island: "§cThis is not a island, you must be on a island to use this!"
+  level_up: 
+    title: "Level Up!"
+    sub_title: "You are now level {%0}"

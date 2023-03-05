@@ -1,0 +1,23 @@
+{
+  "values": {
+    "message.useIngame": "Please use this command ingame!",
+    "message.noPermission": "You don't have the permission to use this command!",
+    "message.playerNotFound": "This player could not be found!",
+    "message.playerNotOnline": "This player is not online!",
+    "message.invalidGamemode": "You can't use this feature in your current gamemode!",
+
+    "message.flyToggled": "You have successfully toggled your flight mode!",
+    "message.flyToggled.other": "You have successfully toggled the flight mode of {0}!",
+    "message.ping": "Your ping is {0}!",
+    "message.ping.other": "{0}'s ping is {1}!",
+    "message.settingsSaved": "Your settings have been saved successfully!",
+
+    "ui.title.settings": "Settings",
+    "ui.element.msgs": "Private messages",
+    "ui.element.chat": "Chat",
+    "ui.element.scoreboard": "Scoreboard",
+    "ui.element.language": "Language",
+    "ui.element.autotranlation": "Auto translation",
+    "ui.button.close": "Close"
+  }
+}

@@ -1,0 +1,9 @@
+---
+name: VersaiCore
+version: 0.0.1-ALPHA
+main: Versai\VersaiCore
+src-namespace-prefix: Versai
+api: [4.0.0]
+description: This is the main core for the Versai Server
+author: TLS Gorilla
+...

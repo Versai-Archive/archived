@@ -1,0 +1,23 @@
+name: vDuels
+main: Versai\Duels\Duels
+api: 4.0.0
+version: 2.0.0
+author: Versai
+description: Duels!
+loadbefore:
+  - vHotbar
+depend:
+  - vArenas
+  - vKits
+permissions:
+  duels.reload:
+    default: op
+    description: Allows reloading the arenas
+  duels.create_arena:
+    default: op
+    description: Allows creating an arena
+  duels.remove_arena:
+    default: op
+    description: Allows removing an arena
+  duels.bypass:
+    default: op

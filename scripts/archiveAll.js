@@ -5,10 +5,17 @@ import decompress from 'decompress';
 import Confirm from 'prompt-confirm';
 
 const prompt = new Confirm(`Are you sure you want to archive all repos?`);
+const ignorePrompt = new Confirm(`Would you like to archive all repos regardless of if they are stale?`);
+let ignore = false;
 
 if (await prompt.run() === false) {
     console.log(`Aborting...`.red);
     process.exit(1);
+}
+
+if (await ignorePrompt.run() === true) {
+    console.log(`Ignoring stale threshold`.yellow);
+    ignore = true;
 }
 
 const allRepos = await client.request("GET /orgs/{org}/repos", {
@@ -31,7 +38,7 @@ for (let repo of allRepos.data) {
     const lastPush = new Date(repo.pushed_at);
     const staleTime = (1000 * 60 * 60 * 24 * 30 * 6);
     const staleDate = staleTime + lastPush.getTime();
-    if (Date.now() < staleDate) {
+    if (!ignore && (Date.now() < staleDate)) {
         console.log(`${repo.name.blue} will be stale at: ${new Date(staleDate).toLocaleDateString().yellow}`);
         continue;
     }

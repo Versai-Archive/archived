@@ -1,0 +1,3 @@
+files:
+  - source: /translations.json
+    translation: /auto_translations/%locale_with_underscore%.json

@@ -1,0 +1,35 @@
+[
+	{
+		"XUID": "1037039402754067",
+		"Username": "TLS Gorilla",
+		"coins": {
+			"player": 124,
+			"bank": 325326436
+		},
+		"collections": {
+			"stone": {
+				"level": 5,
+				"xp": 3235235
+			},
+			"coal": {
+				"level": 5,
+				"xp": 3235235
+			},
+			"diamond": {
+				"level": 5,
+				"xp": 3235235
+			},
+			"emerald": {
+				"level": 5,
+				"xp": 3235235
+			},
+			"end_stone": {
+				"level": 5,
+				"xp": 3235235
+			}
+		},
+		"skills": {
+
+		}
+	}
+]

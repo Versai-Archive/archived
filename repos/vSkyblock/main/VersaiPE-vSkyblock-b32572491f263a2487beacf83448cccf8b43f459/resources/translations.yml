@@ -1,0 +1,110 @@
+scoreboard:
+  title: "§bVersai"
+  break: "§7========="
+commands:
+  general:
+    no_permission: "You don't have permission to do that!"
+    no_player: "Player not found!"
+    no_player_found: "No player found with that name!"
+    no_target: "No target found!"
+    player_offline: "Player is offline!"
+    player_only: "This command can only be used by a player!"
+  craft:
+    usage: "Usage: /craft"
+    description: "craft items"
+  enchant:
+    usage: "Usage: /enchant"
+    description: "enchant items"
+  island:
+    usage: "Usage: /island <args>"
+    description: "island commands"
+    create:
+      usage: "Usage: /island create"
+      success: "Successfully created an island!"
+      failure: "Failed to create an island!"
+      already_has_island: "You already have an island!"
+      in_progress: "Your island creation is now generating please be patient!"
+      error_while_teleporting: "An error occurred while teleporting you to your island!"
+    teleport:
+      usage: "Usage: /island teleport <player>"
+      success_self: "Successfully teleported you to your island!"
+      success_other: "Successfully teleported to {0}'s island!"
+      failure_self: "Failed to teleport you to your island!"
+      failure_other: "Failed to teleport to {0}'s island!"
+      banned: "You are banned from teleporting to this island!"
+      no_island: "You don't have an island!"
+      error_while_teleporting: "An error occured while teleporting you to your island!"
+      player_not_found: "Could not find {0}'s island!"
+    join:
+      usage: "Usage: /island join <island>"
+      success: "Successfully joined {0}'s island!"
+      failure: "Failed to join {0}'s island!"
+    leave:
+      usage: "Usage: /island leave <island>"
+      success: "Successfully left {0}'s island!"
+      failure: "Failed to leave {0}'s island!"
+    delete:
+      usage: "Usage: /island delete"
+      confirm: "Are you sure you want to delete your island? if so type /island delete again."
+      success: "Successfully deleted your island!"
+      failure: "Failed to delete your island!"
+    info:
+      usage: "Usage: /island info <args>"
+      failure: "Failed to list the island info!"
+      no_island: "You don't have an island!"
+      not_found: "IslandCommand not found!"
+    sethome:
+      usage: "Usage: /island sethome"
+      success: "Successfully set the island home!"
+      failure: "Failed to set the island home!"
+    delhome:
+      usage: "Usage: /island delhome"
+      success: "Successfully deleted the island home!"
+      failure: "Failed to delete the island home!"
+    home:
+      usage: "Usage: /island home"
+      success: "Successfully teleported to the island home!"
+      failure: "Failed to teleport to the island home!"
+    invite:
+      usage: "Usage: /island invite <player>"
+      success: "Successfully invited {0} to the island!"
+      failure: "Failed to invite {0} to the island!"
+    uninvite:
+      usage: "Usage: /island uninvite <player>"
+      success: "Successfully uninvited {0} from the island!"
+      failure: "Failed to uninvite {0} from the island!"
+    kick:
+      usage: "Usage: /island kick <player>"
+      success: "Successfully kicked {0} from the island!"
+general:
+  error_unknown: "An unknown error occured!"
+  error_while_executing: "An error occured while executing the command!"
+  error_while_loading: "An error occured while loading the command!"
+  error_while_saving: "An error occured while saving the command!"
+  error_while_saving_config: "An error occured while saving the config!"
+  error_while_saving_data: "An error occured while saving the data!"
+  error_while_saving_messages: "An error occured while saving the messages!"
+  error_while_saving_permissions: "An error occured while saving the permissions!"
+  error_while_saving_translations: "An error occured while saving the translations!"
+  error_while_saving_worlds: "An error occured while saving the worlds!"
+  error_while_loading_config: "An error occured while loading the config!"
+  error_while_loading_data: "An error occured while loading the data!"
+  error_while_loading_messages: "An error occured while loading the messages!"
+  error_while_loading_permissions: "An error occured while loading the permissions!"
+  error_while_loading_translations: "An error occured while loading the translations!"
+  error_while_loading_worlds: "An error occured while loading the worlds!"
+  error_while_loading_commands: "An error occured while loading the commands!"
+  error_while_loading_general: "An error occured while loading the general!"
+  error_while_loading_island: "An error occured while loading the island!"
+  error_while_loading_enchant: "An error occured while loading the enchant!"
+  error_while_loading_craft: "An error occured while loading the craft!"
+  error_while_loading_home: "An error occured while loading the home!"
+  error_while_loading_invite: "An error occured while loading the invite!"
+  error_while_loading_kick: "An error occured while loading the kick!"
+  error_while_loading_leave: "An error occured while loading the leave!"
+  error_while_loading_list: "An error occured while loading the list!"
+  error_while_loading_sethome: "An error occured while loading the sethome!"
+  error_session_not_found: "Session not found!"
+  error_invalid_permission: "Invalid permission!"
+
+

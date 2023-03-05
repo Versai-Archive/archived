@@ -1,0 +1,21 @@
+{
+  "values": {
+    "message.useIngame": "Bitte benutze diesen Command in-game!",
+    "message.noPermission": "Du hast keine Berechtigung diesen Command zu benutzen!",
+    "message.playerNotFound": "Dieser Spieler wurde nicht gefunden!",
+    "message.playerNotOnline": "Dieser Spieler ist nicht online!",
+    "message.invalidGamemode": "Du kannst dieses Feature in deinem aktuellen Spielmodus nicht benutzen!",
+    "message.flyToggled": "Du hast fliegen erfolgreich umgeschaltet!",
+    "message.flyToggled.other": "Sie haben das Fliegen von {0} erfolgreich umgeschaltet!",
+    "message.ping": "Dein Ping ist {0}!",
+    "message.ping.other": "{0}'s Ping ist {1}!",
+    "message.settingsSaved": "Deine Einstellungen wurden erfolgreich gespeichert!",
+    "ui.title.settings": "Einstellungen",
+    "ui.element.msgs": "Prvianachrichten",
+    "ui.element.chat": "Chat",
+    "ui.element.scoreboard": "Scoreboard",
+    "ui.element.language": "Sprache",
+    "ui.element.autotranlation": "Automatische Übersetzung",
+    "ui.button.close": "Schließen"
+  }
+}

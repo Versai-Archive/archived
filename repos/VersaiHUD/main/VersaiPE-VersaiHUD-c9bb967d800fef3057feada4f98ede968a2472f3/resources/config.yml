@@ -1,0 +1,15 @@
+Bossbar:
+  Titles:
+    - Versai
+    - Network
+    - Join Now
+  Subtitles:
+    - versai.pro
+    - bit.ly/versai
+  Mode: Cycle
+Scoreboard:
+  Default:
+    - "Versai"
+    - "In Queue: {queue}"
+    - "Playing: {playing}"
+    - "versai.pro"

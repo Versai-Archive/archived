@@ -1,0 +1,21 @@
+{
+  "values": {
+    "message.useIngame": "Gebruik deze opdracht in het spel!",
+    "message.noPermission": "U heeft geen toestemming om dit commando te gebruiken!",
+    "message.playerNotFound": "Deze persoon kon niet worden gevonden!",
+    "message.playerNotOnline": "Deze speler is niet online!",
+    "message.invalidGamemode": "Je kunt deze opdracht niet gebruiken in je huidige spelmodus!",
+    "message.flyToggled": "Je hebt de vliegmodus met succes gewijzigd!",
+    "message.flyToggled.other": "U hebt met succes de vluchtmodus gewijzigd van {0}!",
+    "message.ping": "Uw ping is {0}!",
+    "message.ping.other": "{0}'s ping is {1}!",
+    "message.settingsSaved": "Uw instellingen zijn succesvol opgeslagen!",
+    "ui.title.settings": "Instellingen",
+    "ui.element.msgs": "Privé Berichten",
+    "ui.element.chat": "Chat",
+    "ui.element.scoreboard": "Scorebord",
+    "ui.element.language": "Language",
+    "ui.element.autotranlation": "Automatische vertaling",
+    "ui.button.close": "Sluiten"
+  }
+}

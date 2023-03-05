@@ -1,0 +1,21 @@
+{
+  "values": {
+    "message.useIngame": "¡Por favor, usa este comando en el juego!",
+    "message.noPermission": "NO tienes permiso para usar este comando!",
+    "message.playerNotFound": "¡Este jugador no se puedoencontrar!",
+    "message.playerNotOnline": "¡Este jugador no está conectado!",
+    "message.invalidGamemode": "¡No puedes usar esta caracteristica en tu modo de juego actual!",
+    "message.flyToggled": "¡Tu cambiado exitosamente alternado usted volador!",
+    "message.flyToggled.other": "¡Tu cambiado exitosamente alternado usted volador de {0}!",
+    "message.ping": "¡Su ping esta {0}!",
+    "message.ping.other": "{0} ping estas {1}!",
+    "message.settingsSaved": "Tus ajustes se han cambiado satisfactoriamente!",
+    "ui.title.settings": "Preferencias",
+    "ui.element.msgs": "Mensajes privados",
+    "ui.element.chat": "Charlar",
+    "ui.element.scoreboard": "Marcador",
+    "ui.element.language": "Idioma",
+    "ui.element.autotranlation": "Traducción automática",
+    "ui.button.close": "Cerrar"
+  }
+}

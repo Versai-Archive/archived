@@ -1,0 +1,5 @@
+name: LanguageAPI
+version: 1.0.0
+main: lang\LanguageAPI
+api: 4.0.0
+author: riccskn

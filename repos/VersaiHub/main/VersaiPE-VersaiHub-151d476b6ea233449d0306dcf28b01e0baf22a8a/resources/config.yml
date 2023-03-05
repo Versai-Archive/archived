@@ -1,0 +1,47 @@
+# Do not touch.
+Version: 1 # SUE PLS DONT TOUCH
+
+# This is iterated, so you can add as many as needed.
+Announcements:
+  - "Message 1"
+  - "Message 2"
+  - "Message 3"
+
+# Time Between Announcements In Minutes !
+TimeBetweenAnnouncements: 1
+
+# Message Player Recives On Join Event!
+
+JoinMessageStatus: False
+JoinMessage: "§eYou are now connected to the §6Versai Network"
+
+# Time Between Updates In Minutes!
+NavigatorCheckSpeed: 5
+
+NavigatorServers:
+
+  practice:
+    address: versai.pro
+    port: 10000
+    img: textures/items/potion_bottle_splash_heal
+
+  build:
+    address: eu.versai.pro
+    port: 9000
+    img: textures/blocks/sandstone_normal
+
+  vanilla survival:
+    address: survival.versai.pro
+    port: 19160
+    img: textures/blocks/grass_block
+
+  modded survival:
+    address: survival.versai.pro
+    port: 19170
+    img: textures/blocks/diamond_ore
+
+Database:
+  host: versai.pro:3306
+  user: adam
+  password: Uyauhi2UTG2cjtwZT2hF%fdf#5TsK
+  schema: HubStats

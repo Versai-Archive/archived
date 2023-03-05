@@ -1,0 +1,30 @@
+{
+  "name": "English",
+  "prefix": "§bVersai §8»§7 ",
+  "locale": "en_US",
+  "shortcut": "en",
+  "contributors": ["Jibix"],
+  
+  "values": {
+    "message.useIngame": "{PREFIX} §cPlease use this command ingame!",
+    "message.noPermission": "{PREFIX} §cYou don't have the permission to use this command!",
+    "message.playerNotFound": "{PREFIX} §cThis player could not be found!",
+    "message.playerNotOnline": "{PREFIX} §cThis player is not online!",
+    "message.invalidGamemode": "{PREFIX} §cYou can't use this feature in your current gamemode!",
+
+    "message.flyToggled": "{PREFIX} §aYou have successfully toggled your flight mode!",
+    "message.flyToggled.other": "{PREFIX} §aYou have successfully toggled the flight mode of§b {0}§a!",
+    "message.ping": "{PREFIX} §aYour ping is§b {0}§a!",
+    "message.ping.other": "{PREFIX} §b{0}'s§a is§b {1}§a!",
+    "message.settingsSaved": "{PREFIX} §aYour settings have been saved successfully!",
+    "message.staffChat": "§8[§6TeamChat§8]§b {0}§8 >§r {1}",
+
+    "ui.title.settings": "§bSettings",
+    "ui.element.msgs": "Private messages",
+    "ui.element.chat": "Chat",
+    "ui.element.scoreboard": "Scoreboard",
+    "ui.element.language": "Language",
+    "ui.element.autotranlation": "Auto translation",
+    "ui.button.close": "§cClose"
+  }
+}

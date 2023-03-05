@@ -1,0 +1,27 @@
+player:
+  notFound: "Player could not be found"
+  notOnline: "This player is not online"
+server:
+  restarting: "The server will be restarting in {0} seconds"
+  command:
+    useInGame: "This command can only be used in game"
+quest:
+  completed: "Quest completed!"
+raw:
+  settings: "Settings"
+  mage: "Mage"
+  paladin: "Paladin"
+  knight: "Knight"
+  summoner: "Summoner"
+  rank: "Rank"
+  device: "Device"
+  language: "Language"
+  enabled: "Enabled"
+  disabled: "Disabled"
+  quest: "Quest"
+  common: "Common"
+  uncommon: "UnCommon"
+  rare: "Rare"
+  epic: "Epic"
+  legendary: "Legendary"
+  mythic: "Mythic"

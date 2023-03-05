@@ -1,0 +1,1 @@
+This is a directory for commands that will make development for you easier, or make it easier for players to report problems they have

@@ -1,0 +1,48 @@
+---
+Kits:
+  Test1:
+    cooldown: 5
+    armor:
+      - '{kit}:310:0:1:LORE\nMORE LORE'
+      - '-:311:0:1:-'
+      - '-:312:0:1:-'
+      - '-:313:0:1:-'
+    items:
+      - '-:276:0:1:SHARP SWORD\nEPIC:UNBREAKING:10:SHARPNESS:1'
+      - '-:322:0:12:-'
+      - '-:322:1:1:-'
+    effects:
+      - 'Speed:3600:1:false'
+  Test2:
+    cooldown: 15
+    armor:
+      - '-:306:0:1:-'
+      - '-:307:0:1:-'
+      - '-:308:0:1:-'
+      - '-:309:0:1:-'
+    items:
+      - '-:267:0:1:-'
+      - '-:322:0:12:-'
+      - '-:322:1:1:-'
+  Test3:
+    cooldown: 7200
+    armor:
+      - '-:306:0:1:-'
+      - '-:307:0:1:-'
+      - '-:308:0:1:-'
+      - '-:309:0:1:-'
+    items:
+      - '-:267:0:1:-'
+      - '-:322:0:12:-'
+      - '-:322:1:1:-'
+Messages:
+  Kit Selected: "You've selected the {kit} kit"
+  Kit Equipped: "You've equipped the {kit} kit"
+Selection Item:
+  Data: 'Select {kit}:342:0:1:Select {kit}'
+
+Form Title: §9Available Kits
+Button Format: §9{kit}
+Cooldown Message: §cThe {kit} kit is on cooldown for {time}
+Default Cooldown: 3
+Kit Equipping Mode: 2 # Mode 1: Clear Inventory and Effects before adding Mode 2: Add to inventory, if full drop item on ground in front of player Mode 3: Same as number 2 but clears effects
